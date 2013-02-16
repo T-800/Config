@@ -1,0 +1,15 @@
+#(sleep 3 && /usr/bin/nm-applet --sm-disable) &
+numlockx &
+tint2 &
+conky -q &
+#volumeicon -b &
+nitrogen --restore &
+openbox-menu -p -o abapps.xml -t 'lxterminal -e' &
+xcompmgr &
+xbacklight -set 100 &
+/usr/bin/synclient TouchpadOff=1 &
+subl &
+terminator &
+google-chrome &
+batti &
+#fbxkb &
