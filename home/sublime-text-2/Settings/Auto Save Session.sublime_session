@@ -546,7 +546,7 @@
 					"file": "/home/renaud/.bashrc",
 					"settings":
 					{
-						"buffer_size": 5887,
+						"buffer_size": 5894,
 						"line_ending": "Unix"
 					}
 				},
@@ -812,7 +812,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -820,15 +820,15 @@
 							"file": "/home/renaud/.bashrc",
 							"settings":
 							{
-								"buffer_size": 5887,
+								"buffer_size": 5894,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4407,
-										4407
+										4428,
+										4428
 									]
 								],
 								"settings":

@@ -157,6 +157,7 @@ alias clear='printf "\ec"'
 alias cg="cd /media/Data/Git/"
 alias m="git add .;git commit -m"
 alias mp="git push origin master" #master push
+# Test
 
 #Fonctions 
 
