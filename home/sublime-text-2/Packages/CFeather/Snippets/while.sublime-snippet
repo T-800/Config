@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-while (${1}) {
-    ${2}
-}
-]]></content>
-    <tabTrigger>while</tabTrigger>
-    <scope>source.c</scope>
-</snippet>

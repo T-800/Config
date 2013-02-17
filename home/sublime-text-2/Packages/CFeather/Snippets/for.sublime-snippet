@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-for (${1}; ${2}; ${3}) {
-    ${4}
-}
-]]></content>
-    <tabTrigger>for</tabTrigger>
-    <scope>source.c</scope>
-</snippet>
