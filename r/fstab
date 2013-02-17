@@ -11,6 +11,6 @@ UUID=ace0af5c-fbe8-4b6c-8c87-afd0ad11dc89 /               ext4    errors=remount
 UUID=d4ae5a9d-7b9e-4968-9402-a1f39e3f458f none            swap    sw              0       0
 /dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
 /dev/sdc1       /media/usb0     auto    rw,user,noauto  0       0
-/dev/sda1 		/media/OS 		ntfs-3g rw,user,auto 0 0
-/dev/sda2 		/media/Data 	ntfs-3g rw,user,auto 0 0
+/dev/sda1 		/media/OS 		ntfs-3g rw,user,auto,exec 0 0
+/dev/sda2 		/media/Data 	ntfs-3g rw,user,auto,exec 0 0
 

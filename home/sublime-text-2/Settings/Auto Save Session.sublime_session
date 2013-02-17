@@ -546,25 +546,25 @@
 					"file": "/home/renaud/.bashrc",
 					"settings":
 					{
-						"buffer_size": 5886,
+						"buffer_size": 5887,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/renaud/.gitconfig",
+					"file": "/home/renaud/.bash_history",
 					"settings":
 					{
-						"buffer_size": 99,
+						"buffer_size": 3514,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "#!",
+					"file": "/home/renaud/git_Conf_push.sh",
 					"settings":
 					{
-						"buffer_size": 2,
+						"buffer_size": 833,
 						"line_ending": "Unix",
-						"name": "#!"
+						"name": "#!/bin/bash"
 					}
 				}
 			],
@@ -652,6 +652,8 @@
 			},
 			"file_history":
 			[
+				"/home/renaud/.xsession-errors",
+				"/home/renaud/.gitconfig",
 				"/home/renaud/.bash_history",
 				"/usr/bin/ppmdither",
 				"/home/renaud/.profile",
@@ -810,7 +812,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -818,15 +820,15 @@
 							"file": "/home/renaud/.bashrc",
 							"settings":
 							{
-								"buffer_size": 5886,
+								"buffer_size": 5887,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										4407,
+										4407
 									]
 								],
 								"settings":
@@ -836,25 +838,25 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 3300.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/renaud/.gitconfig",
+							"file": "/home/renaud/.bash_history",
 							"settings":
 							{
-								"buffer_size": 99,
+								"buffer_size": 3514,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										2815,
+										2815
 									]
 								],
 								"settings":
@@ -862,33 +864,34 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 3186.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 2,
+							"file": "/home/renaud/git_Conf_push.sh",
 							"settings":
 							{
-								"buffer_size": 2,
+								"buffer_size": 833,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2,
-										2
+										670,
+										670
 									]
 								],
 								"settings":
 								{
-									"auto_name": "#!",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"auto_name": "#!/bin/bash",
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 410.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -927,7 +930,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,1,1,0,0,0,0,0,0,1366,768",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
 			"replace":
 			{
 				"height": 0.0
