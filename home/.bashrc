@@ -125,10 +125,10 @@ alias upgrade='sudo apt-get update && apt-get upgrade && apt-get clean'
 alias aclean='sudo apt-get cean'
 alias autoremove='sudo apt-get autoremove'
 # Arch
-alias install='yaourt -a'
-alias update='yaourt -Syyuua'
-alias remove='yaourt -R'
-alias purge='yaourt -Qdt'
+#alias install='yaourt -a'
+#alias update='yaourt -Syyuua'
+#alias remove='yaourt -R'
+#alias purge='yaourt -Qdt'
 
 
 # path aliases
