@@ -19,13 +19,12 @@ NORMAL="\\033[0;39m"
 JAUNE="\\033[1;33m"
 ROUGE="\\033[1;31m"
 
+place=pwd
+
 if [ $# > 1 ]
 	then
 	echo -e "$ROUGE" "Ce script a besoin d'un argument (optionnel) $NORMAL"
 fi 
-
-
-echo -e "$VERT" "cd dans de cossier Config de github $NORMAL"
 cd /media/Data/Git/Config/
 
 echo -e "\n"
@@ -42,7 +41,6 @@ cp /etc/fstab ./r/
 
 vardate="$(date +%d-%m-%Y) à $(date +%Hh%M)"
 
-echo -e "\n"
 echo -e "$VERT" "git add et git commit -m $NORMAL"
 
 if [ $# = 1 ]
@@ -57,3 +55,5 @@ fi
 echo -e "\n"
 echo -e "$VERT" "Push $NORMAL"
 git push origin master
+
+cd $place
