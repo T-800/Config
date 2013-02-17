@@ -562,7 +562,7 @@
 					"file": "/home/renaud/git_Conf_push.sh",
 					"settings":
 					{
-						"buffer_size": 847,
+						"buffer_size": 866,
 						"line_ending": "Unix",
 						"name": "#!/bin/bash"
 					}
@@ -874,15 +874,15 @@
 							"file": "/home/renaud/git_Conf_push.sh",
 							"settings":
 							{
-								"buffer_size": 847,
+								"buffer_size": 866,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										700,
-										700
+										734,
+										734
 									]
 								],
 								"settings":
