@@ -2,6 +2,10 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"CFeather",
+		"CMake",
+		"ColorPicker",
+		"Git",
 		"JavaSetterGetter",
 		"LaTeX Track Changes",
 		"LaTeXTools",

@@ -10,7 +10,7 @@
 		"/media/Data/Programmation/Java/Projet_Perso/Puissace4/grille",
 		"/etc/grub.d"
 	],
-	"last_window_id": 13,
+	"last_window_id": 14,
 	"settings":
 	{
 		"new_window_height": 0.0,
@@ -129,15 +129,27 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 52.0,
 				"selected_items":
 				[
 					[
-						"ins",
+						"insta",
 						"Package Control: Install Package"
 					],
 					[
-						"insta",
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
 						"Package Control: Install Package"
 					],
 					[
@@ -151,14 +163,6 @@
 					[
 						"open ",
 						"View: Toggle Open Files in Side Bar"
-					],
-					[
-						"in",
-						"Package Control: Install Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ",
@@ -206,6 +210,21 @@
 			},
 			"file_history":
 			[
+				"/home/renaud/.config/openbox/rc.xml",
+				"/home/renaud/test.txt",
+				"/home/renaud/.config/tint2/tint2rc",
+				"/home/renaud/.config/openbox/autostart",
+				"/home/renaud/.bashrc",
+				"/home/renaud/.config/openbox/menu.xml",
+				"/home/renaud/.conkyrc",
+				"/usr/share/applications/google-chrome.desktop",
+				"/usr/share/applications/iceweasel.desktop",
+				"/media/Data/Programmation/C/SDZ/Fichiers/fic/test.lvl",
+				"/media/Data/Programmation/C/SDZ/Fichiers/main.c",
+				"/media/Data/Programmation/C/SDZ/sdl/main.c",
+				"/media/Data/Programmation/C/SDZ/structTest/structure.h",
+				"/media/Data/Programmation/C/SDZ/structTest/structure.c",
+				"/media/Data/Programmation/C/SDZ/structTest/main.c",
 				"/media/Data/Cours/L2/S4/LC4/TP/TP2/types_numeriques.h",
 				"/media/Data/Cours/L2/S4/LC4/TP/TP2/fractions.c",
 				"/media/Data/Cours/L2/S4/LC4/TP/TP2/main.c",
@@ -225,9 +244,6 @@
 				"/home/slater/.config/spacefm/session-prior",
 				"/home/slater/.config/spacefm/bookmarks",
 				"/home/slater/.config/spacefm/session",
-				"/media/Data/Programmation/C/SDZ/structTest/main.c",
-				"/media/Data/Programmation/C/SDZ/structTest/structure.c",
-				"/media/Data/Programmation/C/SDZ/structTest/structure.h",
 				"/media/Data/Programmation/C/SDZ/plus_moins.c",
 				"/media/Data/Programmation/C/SDZ/pointeur.c",
 				"/media/Data/Programmation/C/SDZ/variables.c",
@@ -315,6 +331,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"iceweasel",
+					"Iceweasel",
+					"google",
+					"menu",
 					"			<",
 					"enumerat",
 					"color",
@@ -410,6 +430,10 @@
 			{
 				"selected_items":
 				[
+					[
+						"tr",
+						"tripleA"
+					],
 					[
 						"struc",
 						"structure"
@@ -519,62 +543,28 @@
 			"buffers":
 			[
 				{
-					"file": "/home/renaud/.conkyrc",
-					"settings":
-					{
-						"buffer_size": 3939,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/renaud/.config/openbox/menu.xml",
-					"settings":
-					{
-						"buffer_size": 1005,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/renaud/.config/openbox/rc.xml",
-					"settings":
-					{
-						"buffer_size": 29855,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "# Add nano as default editor\nexport EDITOR=nano\n\nalias ls='ls --color=auto'\n#[ ! \"$UID\" = \"0\" ] && archbey -c white\n#[  \"$UID\" = \"0\" ] && archbey -c green\n#PS1=\"\\[\\e[01;31m\\]┌─[\\[\\e[01;35m\\u\\e[01;31m\\]]──[\\[\\e[00;37m\\]${HOSTNAME%%.*}\\[\\e[01;32m\\]]:\\w$\\[\\e[01;31m\\]\\n\\[\\e[01;31m\\]└──\\[\\e[01;36m\\]>>\\[\\e[0m\\]\"\n\nalias ls='ls --color=auto'\n\n# Reset\nColor_Off='\\e[0m'       # Text Reset\n\n# Regular Colors\nBlack='\\e[0;30m'        # Black\nRed='\\e[0;31m'          # Red\nGreen='\\e[0;32m'        # Green\nYellow='\\e[0;33m'       # Yellow\nBlue='\\e[0;34m'         # Blue\nPurple='\\e[0;35m'       # Purple\nCyan='\\e[0;36m'         # Cyan\nWhite='\\e[0;37m'        # White\n\n# Bold\nBBlack='\\e[1;30m'       # Black\nBRed='\\e[1;31m'         # Red\nBGreen='\\e[1;32m'       # Green\nBYellow='\\e[1;33m'      # Yellow\nBBlue='\\e[1;34m'        # Blue\nBPurple='\\e[1;35m'      # Purple\nBCyan='\\e[1;36m'        # Cyan\nBWhite='\\e[1;37m'       # White\n\n# Underline\nUBlack='\\e[4;30m'       # Black\nURed='\\e[4;31m'         # Red\nUGreen='\\e[4;32m'       # Green\nUYellow='\\e[4;33m'      # Yellow\nUBlue='\\e[4;34m'        # Blue\nUPurple='\\e[4;35m'      # Purple\nUCyan='\\e[4;36m'        # Cyan\nUWhite='\\e[4;37m'       # White\n\n# Background\nOn_Black='\\e[40m'       # Black\nOn_Red='\\e[41m'         # Red\nOn_Green='\\e[42m'       # Green\nOn_Yellow='\\e[43m'      # Yellow\nOn_Blue='\\e[44m'        # Blue\nOn_Purple='\\e[45m'      # Purple\nOn_Cyan='\\e[46m'        # Cyan\nOn_White='\\e[47m'       # White\n\n# High Intensty\nIBlack='\\e[0;90m'       # Black\nIRed='\\e[0;91m'         # Red\nIGreen='\\e[0;92m'       # Green\nIYellow='\\e[0;93m'      # Yellow\nIBlue='\\e[0;94m'        # Blue\nIPurple='\\e[0;95m'      # Purple\nICyan='\\e[0;96m'        # Cyan\nIWhite='\\e[0;97m'       # White\n\n# Bold High Intensty\nBIBlack='\\e[1;90m'      # Black\nBIRed='\\e[1;91m'        # Red\nBIGreen='\\e[1;92m'      # Green\nBIYellow='\\e[1;93m'     # Yellow\nBIBlue='\\e[1;94m'       # Blue\nBIPurple='\\e[1;95m'     # Purple\nBICyan='\\e[1;96m'       # Cyan\nBIWhite='\\e[1;97m'      # White\n\n# High Intensty backgrounds\nOn_IBlack='\\e[0;100m'   # Black\nOn_IRed='\\e[0;101m'     # Red\nOn_IGreen='\\e[0;102m'   # Green\nOn_IYellow='\\e[0;103m'  # Yellow\nOn_IBlue='\\e[0;104m'    # Blue\nOn_IPurple='\\e[10;95m'  # Purple\nOn_ICyan='\\e[0;106m'    # Cyan\nOn_IWhite='\\e[0;107m'   # White\n\n\nif [ \"$color_prompt\" = yes ]; then\n    PS1=\"\\[$BCyan\\]┌─[\\[$BGreen\\]\\D{%d/%m-%T}\\[$BCyan\\]]\\[\\033[33;1m\\]\\[$BCyan\\]──[\\[$BWhite\\]\\u\\[$BCyan\\]]──[\\[$BRed\\]\\h\\[$BCyan\\]][\\[$BRed\\]\\!\\[$BCyan\\]]\\[$BWhite\\]\\w\\[$BCyan\\]$\\n└─>>\"\nelse\n    PS1=\"\\[$BCyan\\]┌─[\\[$BGreen\\]\\D{%d/%m-%T}\\[$BCyan\\]]\\[\\033[33;1m\\]\\[$BCyan\\]──[\\[$BWhite\\]\\u\\[$BCyan\\]]──[\\[$BRed\\]\\h\\[$BCyan\\]][\\[$BRed\\]\\!\\[$BCyan\\]]\\[$BWhite\\]\\w\\[$BCyan\\]$\\n└─>>\"\nfi\n\nif [ -f /etc/bash_completion ]; then\n. /etc/bash_completion\nfi\n\n\n# some more ls aliases\nalias ls='ls --color=auto'\nalias ll='ls -l'\nalias la='ls -A'\nalias l='ls -CF'\n\n# apt-get aliases\n\nalias install='yaourt -a'\nalias update='yaourt -Syua'\n#alias upgrade='sudo apt-get upgrade'\nalias remove='yaourt -R'\nalias purge='yaourt -Qdt'\n#alias autoremove='sudo apt-get autoremove'\n\n# path aliases\nalias media='cd /media'\nalias data='cd /media/Data'\nalias cours='cd /media/Data/Cours'\nalias dev='cd /media/Data/Programmation'\nalias cdw7='cd /media/os'\nalias l1='cd /media/Data/Cours/L1'\nalias l2='cd /media/Data/Cours/L2'\n\n#app aliasses\n#alias yaourt=\"sudo yaourt\"\nalias hist=\"history\"\nalias clhist=\"history -c\"\nalias s!!='sudo !!  '\n\n\nalias lf='ls -Gl | grep ^d' #Only list directories\nalias lsd='ls -Gal | grep ^d' #Only list directories, including hidden ones\nalias lr='ls -R | grep \":$\" | sed -e '\\''s/:$//'\\'' -e '\\''s/[^-][^\\/]*\\//--/g'\\'' -e '\\''s/^/   /'\\'' -e '\\''s/-/|/'\\'''\nalias al=\"alias | grep\"\nalias c='clear;pwd;ll'\nalias clear='printf \"\\ec\"'\n\n#Fonctions \n\n#Make and cd into directory\nfunction mcd() {\n  mkdir -p \"$1\" && cd \"$1\";\n}\n\n#cd, clear, ls\ncd(){\n	clear\n	builtin cd $*\n	ls -ahl\n}\n\n\n\n#Extract most know archives with one command\nextract () {\n    if [ -f $1 ] ; then\n      case $1 in\n        *.tar.bz2)   tar xjf $1     ;;\n        *.tar.gz)    tar xzf $1     ;;\n        *.bz2)       bunzip2 $1     ;;\n        *.rar)       unrar e $1     ;;\n        *.gz)        gunzip $1      ;;\n        *.tar)       tar xf $1      ;;\n        *.tbz2)      tar xjf $1     ;;\n        *.tgz)       tar xzf $1     ;;\n        *.zip)       unzip $1       ;;\n        *.Z)         uncompress $1  ;;\n        *.7z)        7z x $1        ;;\n        *)     echo \"'$1' cannot be extracted via extract()\" ;;\n         esac\n     else\n         echo \"'$1' is not a valid file\"\n     fi\n}\n\nalias update='asciiart_update && arch_news && echo -e \"\\\\e[01;31m> Mise à jour\\\\e[00m\" && yaourt -Syua'\n \narch_news () {\n  echo -e \"\\n\\\\e[01;31m> News Archlinux.fr\\\\e[00m\\n$(curl -s archlinux.fr/feed | sed '/<title\\|<pubDate/!d;s/\\t*//g;s/<\\/*title>/ - /g;s/[0-9]*:.*/\\\\e[00m/g;s/&#8217;/'\"'\"'/g;s/&#8211;/-/g;/Archlinux.fr/d;s/intervention manuelle requise/\\\\033[1;33mintervention manuelle requise\\\\e[00m/g;' | sed 'N;s/\\n<pubDate>/\\\\033[1;34m/g;P;D;') \\n\"\n} #'\n \nasciiart_update () {\n  echo ''\n  echo -e \"\\\\033[1;33m  | |   |  |- _ \\\\033[0;02m\"\n  echo -e \"\\\\033[1;33m  |_||)(|(||_(/_\\\\033[0;02m\"\n  echo -e \"\\\\033[1;33m     |          \\\\033[0;02m\"\n}",
 					"file": "/home/renaud/.bashrc",
-					"file_size": 5261,
-					"file_write_time": 1361006128000000,
 					"settings":
 					{
-						"buffer_size": 5216,
+						"buffer_size": 5886,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/renaud/.config/openbox/autostart",
+					"file": "/home/renaud/.gitconfig",
 					"settings":
 					{
-						"buffer_size": 288,
+						"buffer_size": 99,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/renaud/.config/tint2/tint2rc",
+					"contents": "#!",
 					"settings":
 					{
-						"buffer_size": 4157,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/renaud/test.txt",
-					"settings":
-					{
-						"buffer_size": 8093,
-						"line_ending": "Unix"
+						"buffer_size": 2,
+						"line_ending": "Unix",
+						"name": "#!"
 					}
 				}
 			],
@@ -586,6 +576,18 @@
 				[
 					[
 						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
 						"Package Control: Install Package"
 					],
 					[
@@ -603,14 +605,6 @@
 					[
 						"open ",
 						"View: Toggle Open Files in Side Bar"
-					],
-					[
-						"in",
-						"Package Control: Install Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"Package Control: ",
@@ -658,6 +652,20 @@
 			},
 			"file_history":
 			[
+				"/home/renaud/.bash_history",
+				"/usr/bin/ppmdither",
+				"/home/renaud/.profile",
+				"/media/Data/Programmation/C/pointeur/pointeur.h",
+				"/media/Data/Programmation/C/pointeur/pointeur.c",
+				"/media/Data/Cours/L2/S4/LC4/TP/TP3/tp3/main.c",
+				"/media/Data/Programmation/C/pointeur/main.c",
+				"/home/renaud/.config/openbox/rc.xml",
+				"/home/renaud/test.txt",
+				"/home/renaud/.config/tint2/tint2rc",
+				"/home/renaud/.config/openbox/autostart",
+				"/home/renaud/.bashrc",
+				"/home/renaud/.config/openbox/menu.xml",
+				"/home/renaud/.conkyrc",
 				"/usr/share/applications/google-chrome.desktop",
 				"/usr/share/applications/iceweasel.desktop",
 				"/media/Data/Programmation/C/SDZ/Fichiers/fic/test.lvl",
@@ -802,105 +810,23 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/renaud/.conkyrc",
-							"settings":
-							{
-								"buffer_size": 3939,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										509,
-										509
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 115.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/renaud/.config/openbox/menu.xml",
-							"settings":
-							{
-								"buffer_size": 1005,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										640,
-										640
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/renaud/.config/openbox/rc.xml",
-							"settings":
-							{
-								"buffer_size": 29855,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										26368,
-										26368
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/XML/XML.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 10582.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
 							"file": "/home/renaud/.bashrc",
 							"settings":
 							{
-								"buffer_size": 5216,
+								"buffer_size": 5886,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3424,
-										3424
+										0,
+										0
 									]
 								],
 								"settings":
@@ -910,25 +836,25 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1177.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
-							"buffer": 4,
-							"file": "/home/renaud/.config/openbox/autostart",
+							"buffer": 1,
+							"file": "/home/renaud/.gitconfig",
 							"settings":
 							{
-								"buffer_size": 288,
+								"buffer_size": 99,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1,
-										1
+										0,
+										0
 									]
 								],
 								"settings":
@@ -942,49 +868,23 @@
 							"type": "text"
 						},
 						{
-							"buffer": 5,
-							"file": "/home/renaud/.config/tint2/tint2rc",
+							"buffer": 2,
 							"settings":
 							{
-								"buffer_size": 4157,
+								"buffer_size": 2,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2780,
-										2780
+										2,
+										2
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1365.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/renaud/test.txt",
-							"settings":
-							{
-								"buffer_size": 8093,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3447,
-										3453
-									]
-								],
-								"settings":
-								{
+									"auto_name": "#!",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
@@ -1027,7 +927,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"position": "0,1,1,0,0,0,0,0,0,1366,768",
 			"replace":
 			{
 				"height": 0.0
