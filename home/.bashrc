@@ -154,6 +154,7 @@ alias c='clear;pwd;ll'
 alias clear='printf "\ec"'
 
 #GIT
+alias upgit="~/git_Conf_push.sh"
 alias cg="cd /media/Data/Git/"
 alias m="git add .;git commit -m"
 alias mp="git push origin master" #master push
