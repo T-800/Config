@@ -6,26 +6,6 @@ alias ls='ls --color=auto'
 #[  "$UID" = "0" ] && archbey -c green
 #PS1="\[\e[01;31m\]┌─[\[\e[01;35m\u\e[01;31m\]]──[\[\e[00;37m\]${HOSTNAME%%.*}\[\e[01;32m\]]:\w$\[\e[01;31m\]\n\[\e[01;31m\]└──\[\e[01;36m\]>>\[\e[0m\]"
 
-echo "  _______________________________
- /\                              \\
-/++\    __________________________\\
-\+++\   \ ************************/
- \+++\   \___________________ ***/
-  \+++\   \             /+++/***/
-   \+++\   \           /+++/***/
-    \+++\   \         /+++/***/
-     \+++\   \       /+++/***/
-      \+++\   \     /+++/***/
-       \+++\   \   /+++/***/
-        \+++\   \ /+++/***/
-         \+++\   /+++/***/
-          \+++\ /+++/***/
-           \+++++++/***/
-            \+++++/***/
-             \+++/***/
-              \+/___/"
-
-
 
 
 alias ls='ls --color=auto'
@@ -122,15 +102,17 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # apt-get aliases
-
+alias apt-get='sudo apt-get'
 alias install='yaourt -a'
 alias update='yaourt -Syua'
 #alias upgrade='sudo apt-get upgrade'
+alias upgrade='sudo apt-get update && apt-get upgrade && apt-get clean'
 alias remove='yaourt -R'
 alias purge='yaourt -Qdt'
 #alias autoremove='sudo apt-get autoremove'
 
 # path aliases
+alias ..='cd ..'
 alias media='cd /media'
 alias data='cd /media/Data'
 alias cours='cd /media/Data/Cours'
@@ -198,15 +180,16 @@ extract () {
      fi
 }
 
-alias update='asciiart_update && arch_news && echo -e "\\e[01;31m> Mise à jour\\e[00m" && yaourt -Syua'
- 
-arch_news () {
-  echo -e "\n\\e[01;31m> News Archlinux.fr\\e[00m\n$(curl -s archlinux.fr/feed | sed '/<title\|<pubDate/!d;s/\t*//g;s/<\/*title>/ - /g;s/[0-9]*:.*/\\e[00m/g;s/&#8217;/'"'"'/g;s/&#8211;/-/g;/Archlinux.fr/d;s/intervention manuelle requise/\\033[1;33mintervention manuelle requise\\e[00m/g;' | sed 'N;s/\n<pubDate>/\\033[1;34m/g;P;D;') \n"
-} #'
- 
-asciiart_update () {
-  echo ''
-  echo -e "\\033[1;33m  | |   |  |- _ \\033[0;02m"
-  echo -e "\\033[1;33m  |_||)(|(||_(/_\\033[0;02m"
-  echo -e "\\033[1;33m     |          \\033[0;02m"
+function stats () {
+   if [ ! $1 ] || [ $1 == '-a' ]; then
+     perl -ne 'chomp(); $sum += $_; ++$n; END { printf "$n\t$sum\t%.2e\n", $sum/$n }'
+   elif [ $1 == '-m' ]; then
+     perl -ne 'chomp(); $sum += $_; ++$n; END { printf "%.2e\n", $sum/$n }'
+   elif [ $1 == '-s' ]; then
+     perl -lne 'chomp(); $sum += $_; ++$n; END { print $sum }'
+   fi
+}
+
+n (){
+($* ; notify-send "Command over" "$*")
 }
