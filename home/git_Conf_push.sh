@@ -19,7 +19,6 @@ NORMAL="\\033[0;39m"
 JAUNE="\\033[1;33m"
 ROUGE="\\033[1;31m"
 
-place=$PATH
 
 if [ $# > 1 ]
 	then
@@ -55,5 +54,3 @@ fi
 echo -e "\n"
 echo -e "$VERT" "Push $NORMAL"
 git push origin master
-
-cd $place
