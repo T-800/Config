@@ -95,21 +95,41 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 
-# some more ls aliases
+#ALIASES
+
+#ls
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
+alias lf='ls -Gl | grep ^d' #Only list directories
+alias lsd='ls -Gal | grep ^d' #Only list directories, including hidden ones
+alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'''
+alias al="alias | grep"
+
+#history
+alias hist="history"
+alias clhist="history -c"
+alias s!!='sudo !!  '
+
+#clear
+alias c='clear;pwd;ll'
+alias clear='printf "\ec"'
+
 
 # apt-get aliases
+# Debian
 alias apt-get='sudo apt-get'
-alias install='yaourt -a'
-alias update='yaourt -Syua'
-#alias upgrade='sudo apt-get upgrade'
+alias install='sudo apt-get install'
 alias upgrade='sudo apt-get update && apt-get upgrade && apt-get clean'
+alias aclean='sudo apt-get cean'
+alias autoremove='sudo apt-get autoremove'
+# Arch
+alias install='yaourt -a'
+alias update='yaourt -Syyuua'
 alias remove='yaourt -R'
 alias purge='yaourt -Qdt'
-#alias autoremove='sudo apt-get autoremove'
+
 
 # path aliases
 alias ..='cd ..'
@@ -117,26 +137,13 @@ alias media='cd /media'
 alias data='cd /media/Data'
 alias cours='cd /media/Data/Cours'
 alias dev='cd /media/Data/Programmation'
-alias cdw7='cd /media/os'
-alias l1='cd /media/Data/Cours/L1'
-alias l2='cd /media/Data/Cours/L2'
+alias cdw7='cd /media/OS'
+alias l1='cd /media/Data/Cours/L1/S2'
+alias l2='cd /media/Data/Cours/L2/S4'
 
-#app aliasses
-#alias yaourt="sudo yaourt"
-alias hist="history"
-alias clhist="history -c"
-alias s!!='sudo !!  '
-
-
-alias lf='ls -Gl | grep ^d' #Only list directories
-alias lsd='ls -Gal | grep ^d' #Only list directories, including hidden ones
-alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'''
-alias al="alias | grep"
-alias c='clear;pwd;ll'
-alias clear='printf "\ec"'
 
 #GIT
-alias upgit="~/git_Conf_push.sh"
+alias gconf="~/git_Conf_push.sh"
 alias cg="cd /media/Data/Git/"
 alias m="git add .;git commit -m"
 alias mp="git push origin master" #master push
