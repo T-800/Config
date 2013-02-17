@@ -154,9 +154,10 @@ alias c='clear;pwd;ll'
 alias clear='printf "\ec"'
 
 #GIT
+alias cg="cd /media/Data/Git/"
 alias m="git add .;git commit -m"
 alias mp="git push origin master" #master push
-alias cg="cd /media/Data/Git/"
+
 #Fonctions 
 
 #Make and cd into directory
