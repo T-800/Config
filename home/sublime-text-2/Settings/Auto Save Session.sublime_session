@@ -562,7 +562,7 @@
 					"file": "/home/renaud/git_Conf_push.sh",
 					"settings":
 					{
-						"buffer_size": 1158,
+						"buffer_size": 1154,
 						"line_ending": "Unix",
 						"name": "#!/bin/bash"
 					}
@@ -874,15 +874,15 @@
 							"file": "/home/renaud/git_Conf_push.sh",
 							"settings":
 							{
-								"buffer_size": 1158,
+								"buffer_size": 1154,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										438,
-										438
+										1143,
+										1143
 									]
 								],
 								"settings":
@@ -891,7 +891,7 @@
 									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 132.0,
+								"translation.y": 564.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
