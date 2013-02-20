@@ -140,6 +140,7 @@ alias dev='cd /media/Data/Programmation'
 alias cdw7='cd /media/OS'
 alias l1='cd /media/Data/Cours/L1/S2'
 alias l2='cd /media/Data/Cours/L2/S4'
+alias nas='cd /media/Nas'
 
 
 #GIT
