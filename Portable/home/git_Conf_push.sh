@@ -25,7 +25,7 @@ if [ $# > 1 ]
 	then
 		echo -e "$ROUGE" "Ce script a besoin d'un argument (optionnel) $NORMAL"
 	else
-		exit
+		exit 0
 fi 
 cd /media/Data/Git/Config/
 
