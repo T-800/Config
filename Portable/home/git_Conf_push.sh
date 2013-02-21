@@ -23,7 +23,9 @@ place="Portable"
 
 if [ $# > 1 ]
 	then
-	echo -e "$ROUGE" "Ce script a besoin d'un argument (optionnel) $NORMAL"
+		echo -e "$ROUGE" "Ce script a besoin d'un argument (optionnel) $NORMAL"
+	else
+		exit
 fi 
 cd /media/Data/Git/Config/
 
