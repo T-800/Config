@@ -66,10 +66,10 @@ ${color3}${font sans-serif:bold:size=10}RESEAU ${hr 2}${color2}$font
 IP: $alignr${addr wlan0} | ${texeci 3600 wget http://checkip.dyndns.org -O - -o /dev/null | cut -d : -f 2 | cut -d \< -f 1}
 
 Down : ${totaldown wlan0} $alignr Up : ${totalup wlan0}
-${downspeedgraph wlan0 22,150 5e7b7b d8deeb} ${upspeedgraph wlan0 22,150 99c8e8 618094}
-${offset 40}${voffset -21}${downspeedf wlan0}k/s
+${downspeedgraph wlan0 22,100 0066FF 66CC00} ${upspeedgraph wlan0 22,100 0066FF 66CC00}
+${color1}${offset 40}${voffset -21}${downspeedf wlan0}k/s
 ${offset 190}${voffset -14}${upspeedf wlan0}k/s
-#Gail:${alignr}${if_match  ${texeci 3 ~/.gmail.sh} > 0  } ${color1} ${else} ${color3} $endif ${texeci 3 ~/.gmail.sh} ${color2} Mail(s)
+${color2}#Gail:${alignr}${if_match  ${texeci 3 ~/.gmail.sh} > 0  } ${color1} ${else} ${color3} $endif ${texeci 3 ~/.gmail.sh} ${color2} Mail(s)
 #Maj :${alignr}${execi 600 sudo pacman -Sy >/dev/null 2>&1 &&  pacman -Qu | wc -l} package(s)
 Maj :${alignr} ${execi 60  (apt-get -s upgrade | grep nouvellement | awk '{print $1}')} package(s)
 #${execp ~/.conky/paconky.py /tmp/paconky}

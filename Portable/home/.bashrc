@@ -142,7 +142,7 @@ alias l2='cd /media/Data/Cours/L2/S4'
 alias lc='cd /media/Data/Cours/L2/S4/LC4'
 alias dev='cd /media/Data/Programmation'
 alias cdw7='cd /media/OS'
-alias nas='cd /media/Nas'
+alias nas='cd /media/Nas/Ajaxpf'
 
 
 #GIT
