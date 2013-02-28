@@ -13,8 +13,8 @@ UUID=d4ae5a9d-7b9e-4968-9402-a1f39e3f458f none            swap    sw            
 /dev/sdc1       /media/usb0     auto    rw,user,noauto  0       0
 
 #
-/dev/sda1 		/media/OS 		ntfs-3g rw,user,auto,exec 0 0
-/dev/sda2 		/media/Data 	ntfs-3g rw,user,auto,exec 0 0
+/dev/sda1 		/media/OS 		ntfs-3g rw,user,auto,exec,umask=007,uid=1000,gid=46 0 0
+/dev/sda2 		/media/Data 	vfat rw,user,auto,exec,umask=007,uid=1000,gid=46 0 0
 
 #NAS
 //192.168.0.32/Volume_1/	/media/Nas	cifs	rw,user,auto,exec 0 0

@@ -98,7 +98,7 @@ fi
 #ALIASES
 
 #ls
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
@@ -116,6 +116,8 @@ alias s!!='sudo !!  '
 alias c='clear;pwd;ll'
 alias clear='printf "\ec"'
 
+ #alias cp='cp -i'
+alias cp='rsync -ah --progress'
 
 # apt-get aliases
 # Debian
@@ -130,6 +132,9 @@ alias autoremove='sudo apt-get autoremove'
 #alias remove='yaourt -R'
 #alias purge='yaourt -Qdt'
 
+
+#C
+alias cmf='cp ~/Makefile ./'
 
 # path aliases
 alias ..='cd ..'
@@ -165,6 +170,7 @@ cd(){
 	builtin cd $*
 	ls -ahl
 }
+
 
 
 
