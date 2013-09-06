@@ -316,12 +316,12 @@
         </startupnotify>
       </action>
     </keybind>
-    <keybind key="W-c">
+    <keybind key="W-s">
       <action name="Execute">
-        <command>clementine</command>
+        <command>spotify</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Clementine</name>
+          <name>Spotify</name>
         </startupnotify>
       </action>
     </keybind>
@@ -351,7 +351,7 @@
         <command>subl</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Sublime texte</name>
+          <name>Subl</name>
         </startupnotify>
       </action>
     </keybind>
@@ -360,7 +360,7 @@
         <command>vlc</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Gnome Messsssia Player</name>
+          <nameVlc</name>
         </startupnotify>
       </action>
     </keybind>
@@ -373,15 +373,7 @@
         </startupnotify>
       </action>
     </keybind>
-    <keybind key="W-r">
-      <action name="Execute">
-        <command>update_doc</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>DOC</name>
-        </startupnotify>
-      </action>
-    </keybind>
+    
     <keybind key="W-x">
       <action name="Execute">
         <command>conkyswitcher</command>
