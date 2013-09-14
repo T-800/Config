@@ -18,7 +18,7 @@ border_color = #FFFFFF 100
 # Panel
 panel_monitor = 1
 panel_position = top center horizontal
-panel_items = LTSC
+panel_items = LTSBC
 panel_size = 100% 30
 panel_margin = 0 -1
 panel_padding = 0 0 0
@@ -98,6 +98,8 @@ systray_icon_asb = 100 0 0
 # Clock
 time1_format = %H:%M
 time1_font = Sans 9
+time2_format = %A %d %B
+time2_font = Sans 6
 clock_font_color = #FFFFFF 100
 clock_padding = 6 0
 clock_background_id = 1

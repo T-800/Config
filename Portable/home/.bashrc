@@ -253,7 +253,7 @@ alias nas='cd /media/Nas/Ajaxpf'
 #GIT
 alias gconf="~/git_Conf_push.sh"
 alias cg="cd /media/data/Git/"
-alias m="git add .;git commit -m"
+alias m="git add --all;git commit -m"
 alias mp="git push origin master" #master push
 # Test
 
