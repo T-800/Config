@@ -19,8 +19,7 @@ NORMAL="\\033[0;39m"
 JAUNE="\\033[1;33m"
 ROUGE="\\033[1;31m"
 
-if [ $# > 1 ]
-	then
+if (( $# > 1 )); then
 		echo -e "$ROUGE" "Ce script peut prendre un argument (optionnel) $NORMAL"
 fi 
 cd /media/data/git/Config/
@@ -50,4 +49,4 @@ fi
 
 echo -e "\n"
 echo -e "$VERT" "Push $NORMAL"
-git push origin master
+git push origin master'''
