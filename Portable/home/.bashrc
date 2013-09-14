@@ -2,6 +2,13 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Add nano as default editor
+export EDITOR=nano
+export TERMINAL=terminator
+export BROWSER=google-chrome
+# Gtk themes 
+export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -10,7 +17,7 @@ esac
 
 
 
-
+complete -cf sudo
 
 
 # Reset

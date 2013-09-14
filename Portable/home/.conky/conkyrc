@@ -1,0 +1,91 @@
+background yes
+use_xft yes
+xftfont monospace:size=9
+xftalpha 1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour black
+double_buffer yes
+minimum_size 1 1
+maximum_width 240 155
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color gray
+default_shade_color 000000
+default_outline_color d9d7d6
+alignment tr
+gap_x 12
+gap_y 30
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale no
+color1 red
+color2 gray
+color3 1994d1
+##############################################
+#  Output
+##############################################
+TEXT
+${color3}${font Astron Boy Video:style=Bold:pixelsize=30}$alignc${time %H:%M:%S}
+${color3}${font Astron Boy Video:bold:size=10}SYSTEM ${hr 2}${font}${color2}
+${color2}Core 0 : ${cpubar cpu0 7,140} ${color3} $alignr${if_match  ${cpu cpu0} > 30  }${color1}${else}${color3}$endif${cpu cpu0}% 
+${color2}    Core 1 : ${color3}${if_match ${cpu cpu1} > 30}${color1}${else}${color3}$endif${cpu cpu1}%      ${color2}Core 2 : ${color3}${if_match ${cpu cpu2} > 30}${color1}${else}${color3}$endif${cpu cpu2}% 
+${color2}    Core 3 : ${color3}${if_match ${cpu cpu3} > 30}${color1}${else}${color3}$endif${cpu cpu3}%      ${color2}Core 4 : ${color3}${if_match ${cpu cpu4} > 30}${color1}${else}${color3}$endif${cpu cpu4}% 
+${color2}Ram    : ${membar 7,140} ${color3} $alignr${if_match  $memperc > 50  } ${color1} ${else} ${color3} $endif$memperc% 
+${color2}Uptime :$alignr$uptime
+${color2}Batterie : $alignr${battery_short BAT0} - ${battery_time BAT0}
+
+${color3}${font sans-serif:bold:size=10}DISQUES ${hr 2}${color2}$font
+/ : $alignr${fs_free /}
+Data : $alignr${fs_free /media/data}
+Nas : $alignr${fs_free /media/nas}
+Seven : $alignr${fs_free /media/seven}
+
+${color3}${font sans-serif:bold:size=10}RESEAU ${hr 2}${color2}$font
+#IP: $alignr${addr wlp3s0} | ${texeci 3600 wget http://checkip.dyndns.org -O - -o /dev/null | cut -d : -f 2 | cut -d \< -f 1}
+
+Down : ${totaldown wlp3s0} $alignr Up : ${totalup wlp3s0}
+${downspeedgraph wlp3s0 22,100 0066FF 66CC00} ${upspeedgraph wlp3s0 22,100 0066FF 66CC00}
+${color1}${offset 40}${voffset -21}${downspeedf wlp3s0}k/s
+${offset 190}${voffset -14}${upspeedf wlp3s0}k/s
+#${color2}#Gail:${alignr}${if_match  ${texeci 3 ~/.gmail.sh} > 0  } ${color1} ${else} ${color3} $endif ${texeci 3 ~/.gmail.sh} ${color2} Mail(s)
+${color2}Maj :${color1}${alignr}${execpi 600 sudo pacman -Sy >/dev/null 2>&1 &&  pacman -Qu | wc -l} ${color2}package(s)
+#Maj :${alignr} ${execi 60  (apt-get -s upgrade | grep nouvellement | awk '{print $1}')} package(s)
+#${execp ~/.conky/paconky.py /tmp/paconky}
+#${texeci 10800 ~/.conky/notify.py}
+#Agenda: ${alignr}${execi 300 gcalcli --nc --cals=owner agenda }
+
+${color3}${font sans-serif:bold:size=10}TOP PROCESSES ${hr 2}${color2}$font
+Name          ${alignr}CPU      ${alignr}RAM
+
+${color1}${top name 1}   ${alignr}${top cpu 1}  ${alignr}${top mem 1}
+${color #FF6600}${top name 2}   ${alignr}${top cpu 2}  ${alignr}${top mem 2}
+${color #FF9900}${top name 3}    ${alignr}${top cpu 3}  ${alignr}${top mem 3}
+${color #FFCC00}${top name 4}    ${alignr}${top cpu 4}  ${alignr}${top mem 4}
+${color2}${top name 5}    ${alignr}${top cpu 5}  ${alignr}${top mem 5}
+
+${color3}${font sans-serif:bold:size=10}SHORTCUT KEYS ${hr 2}${color2}$font
+${font sans-serif:normal:size=8}
+Super+t$alignr Terminal
+Super+f$alignr File Manager
+Super+e$alignr Editor
+Super+w$alignr Web Browser
+Super+q$alignr Force Quit
+Super+g$alignr Character Map
+Super+r$alignr Read the DOC
+Super+a$alignr Toggle Maximize
+Super+h$alignr Toggle Horizontal
+Super+v$alignr Toggle Vertical
+Super+c$alignr Move to Center
+Super+space$alignr Main Menu
+Super+Arrow$alignr Move
+Alt+F3$alignr Dmenu
+Alt+Super+Arrow$alignr Resize
+

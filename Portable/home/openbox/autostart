@@ -1,15 +1,16 @@
-#(sleep 3 && /usr/bin/nm-applet --sm-disable) &
-numlockx &
+(sleep 3 && /usr/bin/nm-applet --sm-disable) &
 tint2 &
-conky -q &
-#volumeicon -b &
-nitrogen --restore &
-openbox-menu -p -o abapps.xml -t 'lxterminal -e' &
-xcompmgr &
+volumeicon &
+hsetroot -fill /usr/share/wallpapers/archbang-sky.png &
+#clipit &
+conky -c /home/renaud/.conky/conkyrc &
+conky -c /home/renaud/.conky/conky_update &
+
+#mpg123 ~/welcome.mp3 &
+
+# Enable as required
+compton -cCGb &
 xbacklight -set 100 &
 /usr/bin/synclient TouchpadOff=1 &
-subl &
-terminator &
-google-chrome &
-batti &
-#fbxkb &
+#xxkb &
+#spacefm -d &
