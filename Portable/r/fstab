@@ -15,4 +15,4 @@ UUID=8810be67-4198-49d1-a709-f39ecfd48a43 swap swap defaults 0 0
 /dev/sda6 		/media/data 	vfat rw,user,auto,exec,umask=007,uid=1000,gid=46 0 0
 
 #NAS
-//192.168.0.32/Volume_1/	/media/nas	cifs noauto,uid=nixit,credentials=/home/renaud/.cred,domain=work,sec=ntlm,x-systemd.automount
+//192.168.0.32/Volume_1/Ajaxpf/	/media/nas	cifs credentials=/root/.cred,sec=ntlm 0 0
