@@ -43,7 +43,7 @@ vardate="$(date +%d-%m-%Y) à $(date +%Hh%M)"
 echo -e "$VERT" "git add --all et git commit -m $NORMAL"
 git add --all
 
-if [ $# = 1 ]
+if [ $# == 1 ]
 	then
 	git commit -m "$1"
 else
