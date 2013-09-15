@@ -199,6 +199,7 @@ def main(tmp_db_path, sync_cmd=None):
       )
       i = 1
       backup_path = tmp_local_db_path + ('.%d' % i)
+      print ('RENAUD '+tmp_local_db_path + ('.%d' % i))
       while os.path.exists(backup_path):
         i += 1
         backup_path = tmp_local_db_path + ('.%d' % i)

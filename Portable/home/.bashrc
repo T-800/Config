@@ -249,6 +249,9 @@ alias dev='cd /media/data/Programmation'
 alias cdw7='cd /media/OS'
 alias nas='cd /media/Nas/Ajaxpf'
 
+#music
+alias lm='mocp -a /media/data/music'
+alias nm='mocp -a /media/nas/Multimedia/Musique/'
 
 #GIT
 alias gconf="~/git_Conf_push.sh"

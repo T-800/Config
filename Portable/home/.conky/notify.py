@@ -77,20 +77,21 @@ for line in p.stdout:
 #gets reposatory/download size/install size from /var/lib/pacman/sync/*
 for package in packages:
   desc_path = False
-  desc_paths = glob('/var/lib/pacman/sync/*/%s-*'%package[0])
+  desc_paths = glob('/tmp/paconky/local/%s-*'%package[0])
   
   if not desc_path:
     desc_path = desc_paths[0] + '/desc'
   package[1] = desc_path.split('/')[-3]
+  print (desc_path.split('/')[-3])
   pkg_desc = open(desc_path).readlines()
   for index, line in enumerate(pkg_desc):
-    if line == '%CSIZE%\n':
+    if line == '%SIZE%\n':
       download_size = pkg_desc[index+1].strip()
       package[2] = calculate_size(download_size)
-    if line == '%ISIZE%\n':
+    if line == '%SIZE%\n':
       install_size = pkg_desc[index+1].strip()
       package[3] = calculate_size(install_size)
-
+ignore_pkg = []
 #Gets all packages to ignore
 pacman_conf = open('/etc/pacman.conf').readlines()
 for line in pacman_conf:
@@ -98,10 +99,11 @@ for line in pacman_conf:
     ignore_pkg = line.split()
 
 #removes packages to ignore from package list
-for pkg in ignore_pkg:
-  for i, package in enumerate(packages):
-    if package[0] == pkg:
-      packages.pop(i)
+if ignore_pkg :
+  for pkg in ignore_pkg:
+    for i, package in enumerate(packages):
+      if package[0] == pkg:
+        packages.pop(i)
   
 #gets value for all packages depending on repo
 for package in packages:
@@ -123,7 +125,7 @@ if check_width == 1:
   draw_line(lenght)
 for package in packages[0:package_count]:
   line_left = package[0]
-  line_right = str(package[3]) + 'M'
+  line_right = '$alignr '+str(package[3]) + ' M'
   line_center = lenght - len(line_right);
   
   if len(line_left) > line_center:
@@ -135,13 +137,13 @@ for package in packages[0:package_count]:
     space = space + ' '
   
   if package[1] == 'core':
-    line_left = '${color red}' + line_left + '${color}'
+    line_left = '${color1}' + line_left + '${color}'
   elif package[1] == 'extra':
-    line_left = '${color green}' + line_left + '${color}'
+    line_left = '${color2}' + line_left + '${color}'
   elif package[1] == 'community':
-    line_left = '${color purple}' + line_left + '${color}'
+    line_left = '${color3}' + line_left + '${color}'
   elif package[1] == 'arch-games':
-    line_left = '${color pink}' + line_left + '${color}'
+    line_left = '${color2}' + line_left + '${color}'
   print (line_left + space + line_right)
 count = len(packages)
 install_size = 0
