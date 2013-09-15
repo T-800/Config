@@ -30,7 +30,12 @@ echo -e "$VERT" "Copie des fichiers $NORMAL"
 cp ~/.bashrc ./Portable/home/
 cp  ~/git_Conf_push.sh ./Portable/home/
 
-cp -r ~/.moc/* ./Portable/home/.moc/
+cp -r ~/.moc/config ./Portable/home/.moc/
+cp -r ~/.moc/keymap ./Portable/home/.moc/
+
+
+
+
 cp -r ~/.conky/* ./Portable/home/.conky/
 cp -r ~/.config/openbox/* ./Portable/home/openbox/
 cp -r ~/.config/tint2/* ./Portable/home/tint2/
