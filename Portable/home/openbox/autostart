@@ -4,7 +4,6 @@ volumeicon &
 hsetroot -fill /usr/share/wallpapers/archbang-sky.png &
 #clipit &
 conky -c /home/renaud/.conky/conkyrc &
-conky -c /home/renaud/.conky/conky_update &
 
 #mpg123 ~/welcome.mp3 &
 

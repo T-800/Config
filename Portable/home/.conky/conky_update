@@ -70,4 +70,4 @@ TEXT
 #${execpi 3600 /home/renaud/.conky/paconky.py /tmp/paconky}
 #${execpi 900 sh /home/renaud/.conky/pmupdate.sh}
 #
-${execpi 10800 python2 /home/renaud/.conky/notify.py}
+${execpi 10800 python2 /home/renaud/.conky/notify.py} 

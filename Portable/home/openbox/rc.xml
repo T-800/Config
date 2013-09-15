@@ -231,6 +231,11 @@ cases. -->
         <desktop>4</desktop>
       </action>
     </keybind>
+    <keybind key="W-F5">
+      <action name="Desktop">
+        <desktop>5</desktop>
+      </action>
+    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -334,6 +339,37 @@ cases. -->
         </startupnotify>
       </action>
     </keybind>
+    <keybind key="W-x">
+      <action name="Execute">
+        <command>/home/renaud/.conky/conky_switcher.sh</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>conky switcher</name>
+        </startupnotify>
+      </action>
+    </keybind>
+
+    <!--MOCP -->
+    <keybind key="C-W-n">
+      <action name="Execute">
+        <command>mocp -f</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp next</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="C-W-b">
+      <action name="Execute">
+        <command>mocp -r</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp next</name>
+        </startupnotify>
+      </action>
+    </keybind>
+
+
     <keybind key="W-space">
       <action name="ShowMenu">
         <menu>root-menu</menu>
@@ -399,10 +435,10 @@ cases. -->
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
-        <command>spotify</command>
+        <command>terminator --command=mocp</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Spotify</name>
+          <name>MOC</name>
         </startupnotify>
       </action>
     </keybind>

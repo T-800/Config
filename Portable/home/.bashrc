@@ -217,7 +217,7 @@ alias c='clear;pwd;ll'
 alias clear='printf "\ec"'
 
  #alias cp='cp -i'
-alias cp='rsync -ah --progress'
+#alias cp='rsync -ah --progress'
 
 # apt-get aliases
 # Debian
@@ -241,12 +241,10 @@ alias ..='cd ..'
 alias media='cd /media'
 alias data='cd /media/data'
 alias cours='cd /media/data/Cours'
-alias l1='cd /media/data/Cours/L1/S2'
-alias lat='cd /media/data/Cours/L1/S2/LaTeX/Projet2'
-alias l2='cd /media/data/Cours/L2/S4'
-alias lc='cd /media/data/Cours/L2/S4/LC4'
+alias l2='cd /media/data/Cours/L2/S3'
 alias dev='cd /media/data/Programmation'
-alias cdw7='cd /media/OS'
+
+alias cdw7='cd /media/seven'
 alias nas='cd /media/Nas/Ajaxpf'
 
 #music
@@ -254,10 +252,12 @@ alias lm='mocp -a /media/data/music'
 alias nm='mocp -a /media/nas/Multimedia/Musique/'
 
 #GIT
+alias gg="cd /media/data/git"
 alias gconf="~/git_Conf_push.sh"
-alias cg="cd /media/data/Git/"
-alias m="git add --all;git commit -m"
-alias mp="git push origin master" #master push
+alias gd="git diff"
+alias gs="git status"
+alias gc="git add --all;git commit -m"
+alias gp="git push origin master" #master push
 # Test
 
 #Fonctions 
