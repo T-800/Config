@@ -824,5 +824,37 @@ submenu will not be hidden until a different submenu is opened --&gt;
       <focus>yes</focus>
       <maximized>no</maximized>
     </application>
+
+
+    <application class="sublime-text">
+      <position>
+        <monitor>1</monitor>
+      </position>
+      <focus>yes</focus>
+      <maximized>yes</maximized>
+    </application>
+
+    <application class="Google-chrome">
+      <position>
+        <monitor>1</monitor>
+      </position>
+      <focus>yes</focus>
+      <maximized>yes</maximized>
+    </application>
+
+    <application class="Terminator">
+      <position>
+        <monitor>1</monitor>
+      </position>
+      <focus>yes</focus>
+      <maximized>yes</maximized>
+    </application>
+    <application class="Thunar">
+      <position>
+        <monitor>1</monitor>
+      </position>
+      <focus>yes</focus>
+      <maximized>yes</maximized>
+    </application>
   </applications>
 </openbox_config>

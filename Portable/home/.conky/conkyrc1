@@ -39,31 +39,37 @@ ${color3}${font Droid Sans:style=Bold:size=13}$alignc SHORTCUT KEYS
 $stippled_hr${font}${color2}
 ${color3}${font Droid Sans:style=Bold:size=8}APPLICATION$stippled_hr${font}${color2}
 
-Super+space$alignr Menu
+Super+espace$alignr Menu
+Alt+F3$alignr Dmenu
 Super+t$alignr Terminal
 Super+f$alignr Gestionnaire de fichier
 Super+e$alignr Editeur
 Super+w$alignr Navigateur Web
 Super+q$alignr Force Quit
-Super+x$alignr Echanger Conky
-Alt+F3$alignr Dmenu
+Super+x$alignr Changer Conky
+Super+s$alignr Moc
+Super+m$alignr Vlc
+Super+d$alignr xkill
 
 ${color3}${font Droid Sans:style=Bold:size=8}MOC$stippled_hr${font}${color2}
+
 [ACTIVE]
 space$alignr Play/Pause
 n$alignr Chanson suivante
 b$alignr Chanson précédente
 
-
 [NO]
 Ctrl+Super+space$alignr Play/Pause
-
-
+Ctrl+Super+n$alignr Chanson suivante
+Ctrl+Super+b$alignr Chanson précédente
 
 ${color3}${font Droid Sans:style=Bold:size=8}WINDOW$stippled_hr${font}${color2}
+
+Super+Fn$alignr Bureau n
 Super+a$alignr Maximiser
 Super+h$alignr Maximiser Horizontal
 Super+v$alignr Maximiser Vertical
 Super+c$alignr Centrer
 Super+➜$alignr Move
-Alt+suivanteper+➜$alignr Ajuster
+Super+d$alignr Retour bureau
+Alt+Super+➜$alignr Ajuster

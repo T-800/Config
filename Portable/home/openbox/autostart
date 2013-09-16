@@ -6,7 +6,7 @@ hsetroot -fill /usr/share/wallpapers/archbang-sky.png &
 conky -c /home/renaud/.conky/conkyrc &
 
 #mpg123 ~/welcome.mp3 &
-
+numlockx &
 # Enable as required
 compton -cCGb &
 xbacklight -set 100 &

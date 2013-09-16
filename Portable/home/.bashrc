@@ -216,7 +216,7 @@ alias s!!='sudo !!  '
 alias c='clear;pwd;ll'
 alias clear='printf "\ec"'
 
- #alias cp='cp -i'
+alias cp='cp -i'
 #alias cp='rsync -ah --progress'
 
 # apt-get aliases
@@ -298,3 +298,5 @@ extract () {
          echo "'$1' is not a valid file"
      fi
 }
+
+alias bd=". bd -s"
