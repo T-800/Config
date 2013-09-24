@@ -81,7 +81,6 @@ launcher_icon_size = 16
 # Each launcher_item_app must be a full path to a .desktop file
 
 launcher_item_app = /usr/share/applications/menu.desktop
-launcher_item_app = /usr/share/applications/Thunar.desktop
 launcher_item_app = /usr/share/applications/google-chrome.desktop
 launcher_item_app = /usr/share/applications/terminator.desktop
 launcher_item_app = /usr/share/applications/sublime-text.desktop

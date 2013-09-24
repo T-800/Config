@@ -3,9 +3,21 @@
 # for examples
 
 # Add nano as default editor
+
+#####RAPPEL#####
+##rappel dossier par defaut 
+export RAPPEL_DIR=/media/data/git/Script/rappel/v2/.rappel/bash
+##autocompletion
+source /etc/bash_completion.d/rappel.bash 
+
+
+source /etc/bash_completion.d/rappel.bash 
+
 export EDITOR=nano
 export TERMINAL=terminator
 export BROWSER=google-chrome
+
+
 # Gtk themes 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
@@ -166,7 +178,7 @@ if [ -x /usr/bin/dircolors ]; then
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
-    #alias grep='grep --color=auto'
+    alias grep='grep --color=auto'
     #alias fgrep='fgrep --color=auto'
     #alias egrep='egrep --color=auto'
 fi
@@ -216,7 +228,8 @@ alias s!!='sudo !!  '
 alias c='clear;pwd;ll'
 alias clear='printf "\ec"'
 
-alias cp='cp -i'
+#alias cp='cp -g'
+#alias mv='mv -g'
 #alias cp='rsync -ah --progress'
 
 # apt-get aliases
@@ -237,6 +250,7 @@ alias autoremove='sudo apt-get autoremove'
 alias cmf='cp ~/Makefile ./'
 
 # path aliases
+alias bd=". bd -s"
 alias ..='cd ..'
 alias media='cd /media'
 alias data='cd /media/data'
@@ -299,4 +313,4 @@ extract () {
      fi
 }
 
-alias bd=". bd -s"
+

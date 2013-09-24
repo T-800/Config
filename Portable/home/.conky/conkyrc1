@@ -57,11 +57,15 @@ ${color3}${font Droid Sans:style=Bold:size=8}MOC$stippled_hr${font}${color2}
 space$alignr Play/Pause
 n$alignr Chanson suivante
 b$alignr Chanson précédente
+8$alignr volume +5
+2$alignr volume -5
 
 [NO]
 Ctrl+Super+space$alignr Play/Pause
 Ctrl+Super+n$alignr Chanson suivante
 Ctrl+Super+b$alignr Chanson précédente
+Ctrl+Super+p$alignr volume +10
+Ctrl+Super+m$alignr volume -10
 
 ${color3}${font Droid Sans:style=Bold:size=8}WINDOW$stippled_hr${font}${color2}
 

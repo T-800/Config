@@ -277,7 +277,7 @@ cases. -->
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>thunar</command>
+        <command>krusader</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>File Manager</name>
@@ -364,6 +364,24 @@ cases. -->
     <keybind key="C-W-b">
       <action name="Execute">
         <command>mocp -r</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp next</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="C-W-p">
+      <action name="Execute">
+        <command>mocp -v +10</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp next</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="C-W-m">
+      <action name="Execute">
+        <command>mocp -v -10</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Mocp next</name>
@@ -849,7 +867,7 @@ submenu will not be hidden until a different submenu is opened --&gt;
       <focus>yes</focus>
       <maximized>yes</maximized>
     </application>
-    <application class="Thunar">
+    <application class="krusader">
       <position>
         <monitor>1</monitor>
       </position>

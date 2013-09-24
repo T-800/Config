@@ -1,7 +1,7 @@
 (sleep 3 && /usr/bin/nm-applet --sm-disable) &
 tint2 &
 volumeicon &
-hsetroot -fill /usr/share/wallpapers/archbang-sky.png &
+hsetroot -fill /media/data/images/feel_free.jpg &
 #clipit &
 conky -c /home/renaud/.conky/conkyrc &
 
