@@ -6,11 +6,8 @@
 
 #####RAPPEL#####
 ##rappel dossier par defaut 
-export RAPPEL_DIR=/media/data/git/Script/rappel/v2/.rappel/bash
+export RAPPEL_DIR=~/.rappel/
 ##autocompletion
-source /etc/bash_completion.d/rappel.bash 
-
-
 source /etc/bash_completion.d/rappel.bash 
 
 export EDITOR=nano
@@ -156,9 +153,11 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1="\[$BCyan\]┌─[\[$BGreen\]\D{%d/%m-%T}\[$BCyan\]]\[\033[33;1m\]\[$BCyan\]──[\[$BWhite\]\u\[$BCyan\]]──[\[$BRed\]\h\[$BCyan\]][\[$BRed\]\!\[$BCyan\]]\[$BWhite\]\w\[$BCyan\]$\n└─>>"
+    PS1="\[$(tput bold)\]\[$(tput setaf 4)\]┌─[\[$(tput setaf 6)\]date\[$(tput setaf 4)\]]──[\[$(tput setaf 7)\]\u\[$(tput setaf 4)\]]──[\[$(tput setaf 6)\]\W\[$(tput setaf 4)\]]─\\$\n└─>>\[$(tput sgr0)\]"
+    #"\[$BBlue\]┌─[\[$BGreen\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BWhite\]\w\[$BBlue\]$\n└─>>"
 else
-    PS1="\[$BCyan\]┌─[\[$BGreen\]\D{%d/%m-%T}\[$BCyan\]]\[\033[33;1m\]\[$BCyan\]──[\[$BWhite\]\u\[$BCyan\]]──[\[$BRed\]\h\[$BCyan\]][\[$BRed\]\!\[$BCyan\]]\[$BWhite\]\w\[$BCyan\]$\n└─>>"
+    PS1="\[$BBlue\]┌─[\[$BICyan\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BICyan\]\W\[$BIBlue\]]-\$\n└─\[$BRed\]>> \[$Color_Off\]"
+    #"\[$BBlue\]┌─[\[$BGreen\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BRed\]\h\[$BBlue\]][\[$BRed\]\!\[$BBlue\]]\[$BWhite\]\w\[$BCyan\]$\n└─>>"
 fi
 unset color_prompt force_color_prompt
 
@@ -208,13 +207,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
+alias sb="source ~/.bashrc"
 
-#ls
+alias ls='ls --group-directories-first -F --color=auto'
+alias lp='ls ;pwd'
 #alias ls='ls --color=auto'
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
-alias lf='ls -Gl | grep ^d' #Only list directories
+alias ll='ls -l ;pwd'
+alias la='ls -A;pwd'
+alias l='ls -CF;pwd'
+alias lf='ls -Gl | grep ^d ' #Only list directories
 alias lsd='ls -Gal | grep ^d' #Only list directories, including hidden ones
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'''
 alias al="alias | grep"
@@ -225,7 +226,7 @@ alias clhist="history -c"
 alias s!!='sudo !!  '
 
 #clear
-alias c='clear;pwd;ll'
+alias c='clear;lp'
 alias clear='printf "\ec"'
 
 #alias cp='cp -g'
@@ -234,16 +235,16 @@ alias clear='printf "\ec"'
 
 # apt-get aliases
 # Debian
-alias apt-get='sudo apt-get'
-alias install='sudo apt-get install'
-alias upgrade='sudo apt-get update && apt-get upgrade && apt-get clean'
-alias aclean='sudo apt-get cean'
-alias autoremove='sudo apt-get autoremove'
+#alias apt-get='sudo apt-get'
+#alias install='sudo apt-get install'
+#alias upgrade='sudo apt-get update && apt-get upgrade && apt-get clean'
+#alias aclean='sudo apt-get cean'
+#alias autoremove='sudo apt-get autoremove'
 # Arch
-#alias install='yaourt -a'
-#alias update='yaourt -Syyuua'
-#alias remove='yaourt -R'
-#alias purge='yaourt -Qdt'
+alias install='yaourt -a'
+alias update='yaourt -Syyuua'
+alias remove='yaourt -R'
+alias purge='yaourt -Qdt'
 
 
 #C
@@ -285,7 +286,7 @@ function mcd() {
 cd(){
     clear
     builtin cd $*
-    ls -ahl
+    ls 
 }
 
 

@@ -1,5 +1,7 @@
-(sleep 3 && /usr/bin/nm-applet --sm-disable) &
+#(sleep 3 && /usr/bin/nm-applet --sm-disable) &
 tint2 &
+
+tilda &
 volumeicon &
 hsetroot -fill /media/data/images/feel_free.jpg &
 #clipit &
@@ -12,4 +14,7 @@ compton -cCGb &
 xbacklight -set 100 &
 /usr/bin/synclient TouchpadOff=1 &
 #xxkb &
-#spacefm -d &
+
+
+#Application#
+subl &

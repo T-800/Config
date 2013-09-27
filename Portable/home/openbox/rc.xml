@@ -388,6 +388,33 @@ cases. -->
         </startupnotify>
       </action>
     </keybind>
+    <keybind key="C-W-space">
+      <action name="Execute">
+        <command>mocp -G</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp Play/Pause</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="C-W-c">
+      <action name="Execute">
+        <command>mocp -p</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp play</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="C-W-s">
+      <action name="Execute">
+        <command>mocp -s</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Mocp stop</name>
+        </startupnotify>
+      </action>
+    </keybind>
 
 
     <keybind key="W-space">
@@ -867,6 +894,7 @@ submenu will not be hidden until a different submenu is opened --&gt;
       <focus>yes</focus>
       <maximized>yes</maximized>
     </application>
+    
     <application class="krusader">
       <position>
         <monitor>1</monitor>

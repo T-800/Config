@@ -102,7 +102,9 @@ Sort = FileName
 #                     be doubled (i.e., '\\').  (See zshmisc
 #                     documentation for more information.)
 #
-FormatString = "%(n:%n :)%(a:%a - :)%(t:%t:)%(A: \(%A\):)"
+FormatString = "%(n:%n \) :)%(t:%t - :)%(a:%a:)%(A: \(%A\):)""
+#"%(n:%n :)%(a:%a - :)%(t:%t:)%(A: \(%A\):)"
+
 
 # Input and ouput buffer sizes (in kilobytes).
 #InputBuffer = 512                  # Minimum value is 32KB
