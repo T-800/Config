@@ -44,8 +44,6 @@ Kernel:  ${alignr}${kernel}
 Uptime: ${alignr}${uptime}
 Updates: ${alignr}${font Droid Sans:style=Bold:size=8}${execi 10800 pacman -Qu | wc -l}${font} Packages
 Batterie : $alignr${battery_short BAT0} - ${battery_time BAT0}
-Dr Who  :${alignr}${execi 1 ~/.conky/time_left_DW.py} jours 
-Othello :${alignr}${execi 1 ~/.conky/othello.py} jours 
 # |--CPU
 ${voffset 6}${font Droid Sans:style=Bold:size=8}CPU${font}${offset -20}${voffset 10}${cpubar cpu0 4,18}
 ${voffset -23}${goto 40}Core 1: ${font Droid Sans:style=Bold:size=8}${if_match ${cpu cpu1} > 30}${color1}${else}${color2}$endif${cpu cpu1}%${font} ${alignr}${cpubar cpu1 7,70 EEEEEE}${color2}
@@ -57,11 +55,11 @@ ${voffset 6}${font Droid Sans:style=Bold:size=8}RAM${font}${goto 40}RAM: ${font 
 ${voffset 6}${offset 1}${voffset -8}${membar 4,18}${voffset 4}${goto 40}${voffset -2}Used: ${font Droid Sans:style=Bold:size=8}${mem}${font}
 # |--PROC
 ${voffset 4}${font Droid Sans:style=Bold:size=8}TOP${font}${voffset 0}${goto 126}CPU${alignr}RAM
-${color1}${voffset -1}${goto 40}${top name 1}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 1}${alignr }${top mem 1}${font}
-${color #FF6600}${voffset -1}${goto 40}${top name 2}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 2}${alignr }${top mem 2}${font}
-${color #FF9900}${voffset -1}${goto 40}${top name 3}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 3}${alignr }${top mem 3}${font}
-${color #FFCC00}${voffset -1}${goto 40}${top name 4}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 4}${alignr }${top mem 4}${font}
-${color2}${voffset -1}${goto 40}${top name 5}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 5}${alignr }${top mem 5}${font}
+${color1}${voffset -1}${goto 20}${top name 1}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 1}${alignr }${top mem 1}${font}
+${color #FF6600}${voffset -1}${goto 20}${top name 2}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 2}${alignr }${top mem 2}${font}
+${color #FF9900}${voffset -1}${goto 20}${top name 3}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 3}${alignr }${top mem 3}${font}
+${color #FFCC00}${voffset -1}${goto 20}${top name 4}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 4}${alignr }${top mem 4}${font}
+${color2}${voffset -1}${goto 20}${top name 5}${font Droid Sans:style=Bold:size=8} ${goto 120}${top cpu 5}${alignr }${top mem 5}${font}
 
 ${color3}${font Droid Sans:style=Bold:size=8}NETWORK $stippled_hr${font}${color2}
 ##############
