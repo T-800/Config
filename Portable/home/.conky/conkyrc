@@ -39,11 +39,10 @@ ${color3}${font Droid Sans:style=Bold:size=8}SYSTEM $stippled_hr${font}${color2}
 ##############
 # - SYSTEM - #
 ##############
-
 Kernel:  ${alignr}${kernel}
 Uptime: ${alignr}${uptime}
 Updates: ${alignr}${font Droid Sans:style=Bold:size=8}${execi 10800 pacman -Qu | wc -l}${font} Packages
-Batterie : $alignr${battery_short BAT0} - ${battery_time BAT0}
+#Batterie : $alignr${battery_short BAT0} - ${battery_time BAT0}
 # |--CPU
 ${voffset 6}${font Droid Sans:style=Bold:size=8}CPU${font}${offset -20}${voffset 10}${cpubar cpu0 4,18}
 ${voffset -23}${goto 40}Core 1: ${font Droid Sans:style=Bold:size=8}${if_match ${cpu cpu1} > 30}${color1}${else}${color2}$endif${cpu cpu1}%${font} ${alignr}${cpubar cpu1 7,70 EEEEEE}${color2}

@@ -15,7 +15,6 @@ alias c='clear;lp'
 alias clear='printf "\ec"'
 
 # path aliases
-alias bd=". bd -s"
 alias ..='cd ..'
 alias media='cd /media'
 alias data='cd /media/data'
@@ -31,13 +30,13 @@ alias lm='mocp -a /media/data/music'
 alias nm='mocp -a /media/nas/Multimedia/Musique/'
 
 #GIT
-alias gg="cd /media/data/git"
-alias gconf="~/git_Conf_push.sh"
-alias gd="git diff"
-alias gs="git status"
-alias gchs="git status"
-alias gco="git add --all;git commit -m"
-alias gmp="git push origin master" #master push
-alias gp="git push origin" # push
-alias gb="git branch" 
-alias gbr="git branch -r" 
+#alias gg="cd /media/data/git"
+#alias gconf="~/git_Conf_push.sh"
+#alias gd="git diff"
+#alias gs="git status"
+#alias gchs="git status"
+#alias gco="git add --all;git commit -m"
+#alias gmp="git push origin master" #master push
+#alias gp="git push origin" # push
+#alias gb="git branch" 
+#alias gbr="git branch -r" 
