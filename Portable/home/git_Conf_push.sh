@@ -28,12 +28,14 @@ echo -e "\n"
 echo -e "$VERT" "Copie des fichiers $NORMAL"
 
 cp ~/.bashrc ./Portable/home/
+cp ~/.zshrc ./Portable/home/
 cp  ~/git_Conf_push.sh ./Portable/home/
 
 cp -r ~/.moc/config ./Portable/home/.moc/
 cp -r ~/.moc/keymap ./Portable/home/.moc/
 
-
+cp -r /home/renaud/.oh-my-zsh/* ./Portable/home/.oh-my-zsh/
+cp -r /home/renaud/.zsh/* ./Portable/home/.zsh/
 
 
 cp -r ~/.conky/* ./Portable/home/.conky/
