@@ -8,7 +8,8 @@
 ##rappel dossier par defaut 
 export RAPPEL_DIR=~/.rappel/
 ##autocompletion
-source /etc/bash_completion.d/rappel.bash 
+
+
 
 export EDITOR=nano
 export TERMINAL=terminator
@@ -156,7 +157,7 @@ if [ "$color_prompt" = yes ]; then
     PS1="\[$(tput bold)\]\[$(tput setaf 4)\]┌─[\[$(tput setaf 6)\]date\[$(tput setaf 4)\]]──[\[$(tput setaf 7)\]\u\[$(tput setaf 4)\]]──[\[$(tput setaf 6)\]\W\[$(tput setaf 4)\]]─\\$\n└─>>\[$(tput sgr0)\]"
     #"\[$BBlue\]┌─[\[$BGreen\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BWhite\]\w\[$BBlue\]$\n└─>>"
 else
-    PS1="\[$BBlue\]┌─[\[$BICyan\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BICyan\]\W\[$BIBlue\]]-\$\n└─\[$BRed\]>> \[$Color_Off\]"
+    PS1="\[$BBlue\]┌─[\[$BICyan\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BICyan\]\W\[$BIBlue\]]-$\n└─\[$BRed\]>> \[$Color_Off\]"
     #"\[$BBlue\]┌─[\[$BGreen\]\D{%d/%m-%T}\[$BBlue\]]\[\033[33;1m\]\[$BBlue\]──[\[$BWhite\]\u\[$BBlue\]]──[\[$BRed\]\h\[$BBlue\]][\[$BRed\]\!\[$BBlue\]]\[$BWhite\]\w\[$BCyan\]$\n└─>>"
 fi
 unset color_prompt force_color_prompt
@@ -186,6 +187,7 @@ fi
 #alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
+
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -271,8 +273,12 @@ alias gg="cd /media/data/git"
 alias gconf="~/git_Conf_push.sh"
 alias gd="git diff"
 alias gs="git status"
-alias gc="git add --all;git commit -m"
-alias gp="git push origin master" #master push
+alias gchs="git status"
+alias gco="git add --all;git commit -m"
+alias gmp="git push origin master" #master push
+alias gp="git push origin" # push
+alias gb="git branch" 
+alias gbr="git branch -r" 
 # Test
 
 #Fonctions 
