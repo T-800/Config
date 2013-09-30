@@ -62,9 +62,7 @@ prompt_end() {
 prompt_context() {
   local user=`whoami`
 
-  if [[ "$user" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$user@%m"
-  fi
+  prompt_segment black default "%(!.%{%F{yellow}%}.)$user"
 }
 
 # Git: branch/detached head, dirty status
@@ -131,7 +129,7 @@ prompt_hg() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue black '%~'
+  prompt_segment blue black '%1~'
 }
 
 # Virtualenv: current working virtualenv

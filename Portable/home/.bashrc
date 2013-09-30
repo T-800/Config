@@ -6,7 +6,7 @@
 
 #####RAPPEL#####
 ##rappel dossier par defaut 
-export RAPPEL_DIR=~/.rappel/
+export RAPPEL_DIR=~/.rappel/bash/
 ##autocompletion
 
 

@@ -4,6 +4,7 @@
 # guess it by looking for file content.
 
 alias colorize='colorize_via_pygmentize'
+alias col='colorize'
 
 colorize_via_pygmentize() {
     if [ ! -x $(which pygmentize) ]; then
