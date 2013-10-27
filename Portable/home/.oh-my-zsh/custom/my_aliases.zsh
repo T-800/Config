@@ -24,3 +24,5 @@ alias lm='mocp -a /media/data/music'
 alias nm='mocp -a /media/nas/Multimedia/Musique/'
 
 alias algr=' alias | grep --'
+alias p3='python3'
+alias pdf='acroread'

@@ -351,10 +351,12 @@ cases. -->
       </action>
     </keybind>
 
+
+
     <!--MOCP -->
     <keybind key="C-W-n">
       <action name="Execute">
-        <command>mocp -f</command>
+        <command>cmus-remote -n</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Mocp next</name>
@@ -363,7 +365,7 @@ cases. -->
     </keybind>
     <keybind key="C-W-b">
       <action name="Execute">
-        <command>mocp -r</command>
+        <command>cmus-remote -r</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Mocp next</name>
@@ -372,7 +374,7 @@ cases. -->
     </keybind>
     <keybind key="C-W-p">
       <action name="Execute">
-        <command>mocp -v +10</command>
+        <command>cmus-remote -v +10</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Mocp next</name>
@@ -381,7 +383,7 @@ cases. -->
     </keybind>
     <keybind key="C-W-m">
       <action name="Execute">
-        <command>mocp -v -10</command>
+        <command>cmus-remote -v -10</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Mocp next</name>
@@ -482,10 +484,10 @@ cases. -->
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
-        <command>terminator --command=mocp</command>
+        <command>terminator --command=cmus</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>MOC</name>
+          <name>Cmus</name>
         </startupnotify>
       </action>
     </keybind>

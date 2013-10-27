@@ -33,6 +33,7 @@ cp  ~/git_Conf_push.sh ./Portable/home/
 
 cp -r ~/.moc/config ./Portable/home/.moc/
 cp -r ~/.moc/keymap ./Portable/home/.moc/
+cp -r ~/.cmus/ ./Portable/home/.cmus/
 
 cp -r /home/renaud/.oh-my-zsh/* ./Portable/home/.oh-my-zsh/
 cp -r /home/renaud/.zsh/* ./Portable/home/.zsh/

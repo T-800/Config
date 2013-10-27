@@ -1,0 +1,20 @@
+load testjj.pls
+clear
+save testjj.pls
+save test.pls
+save test2.pls
+save
+q
+bind -f common delete win-remove
+bind -f common d add²²²
+bind -f common <key> add
+bind -f common  add
+bind common d add
+bind common t add
+bind common z add
+bind common a add
+bind common <key> addaaaaa
+bind common <key> a
+bind common <key> add
+add /media/data/music/
+a

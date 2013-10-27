@@ -40,7 +40,7 @@ ZSH_THEME="my_agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bd archlinux colored-man colorize cp extract web-search)
+plugins=(git bd archlinux colored-man colorize cp extract web-search zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
