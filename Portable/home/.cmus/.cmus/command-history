@@ -1,10 +1,18 @@
+load good.pls
+save /media/data/music/gg.pls
+load /media/data/music/COOL.pls
+save good.pls
+load COOL.pls
+save AM.pls
+save COOL.pls
+live-filter 
+q
 load testjj.pls
 clear
 save testjj.pls
 save test.pls
 save test2.pls
 save
-q
 bind -f common delete win-remove
 bind -f common d add²²²
 bind -f common <key> add

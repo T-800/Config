@@ -1,50 +1,12 @@
 /media/data/music/04 - My pride.wav
-/media/data/music/15 - Stairway To Heaven.mp3
-/media/data/music/Abdallah - Allô La Terre (CLIP OFFICIEL).mp3
-/media/data/music/Arctic Monkeys - 2013 (Official Audio).mp3
-/media/data/music/Arctic Monkeys - Electricity.mp3
-/media/data/music/Arctic Monkeys - Stop The World I Wanna Get Off With You (Official Audio).mp3
-/media/data/music/Ben MazuÃ© - Confessions d'un rap addict.mp3
-/media/data/music/Ben Mazué - Confessions d'un rap addict.mp3
-/media/data/music/CaravanPalace-JolieCoquine.mp3
-/media/data/music/Colours in the Street - Paper Child.mp3
-/media/data/music/DavidBowie-Starman-2002DigitalRemaster.mp3
-/media/data/music/DoctorFlake-ALastDanceWithLéon.mp3
-/media/data/music/Eminem - Rap God (Audio).mp3
-/media/data/music/Eminem, Dr. Dre - Forgot About Dre ft. Hittman.mp3
-/media/data/music/Eminem-Berzerk.mp3
 /media/data/music/Forgot About Dre.mp3
-/media/data/music/Funkadelic - Maggot Brain.mp3
-/media/data/music/Heart - Crazy On You.mp3
-/media/data/music/HollySiz - Come Back To Me [Clip Officiel].mp3
-/media/data/music/Hollysiz  Come back to me.mp3
-/media/data/music/JAY-Z - Big Pimpin ft. UGK.mp3
-/media/data/music/Lana Del Rey - Blue Jeans.mp3
-/media/data/music/Lee Fields Faithful Man.mp3
-/media/data/music/LyreLeTemps-AboutTheTraumaDrum.mp3
-/media/data/music/MGMT - Time To Pretend.mp3
-/media/data/music/MisterModo-DigginintheCrates.mp3
-/media/data/music/MisteurValaire-AveMucho.mp3
-/media/data/music/MisteurValaire-NovemberNumber3.mp3
-/media/data/music/Moriarty-Jimmy.mp3
-/media/data/music/No Doubt - The Singles 1992-2003 - 02 - It's My Life.mp3
-/media/data/music/ParovStelarTrio-TheFireface(ClubEdit).mp3
-/media/data/music/PaulKalkbrenner-Aaron.mp3
-/media/data/music/PaulKalkbrenner-Dockyard.mp3
-/media/data/music/Pink Floyd-Another Brick In The Wall [HQ].mp3
-/media/data/music/PrettyLights-FinallyMoving.mp3
-/media/data/music/Puppetmastaz-TheGarden.mp3
-/media/data/music/Reignwolf - Electric Love (Jet City Stream Session).mp3
-/media/data/music/Rone-IWokeUp.mp3
-/media/data/music/just in.mp3
-/media/data/music/Rolling Stones - Paint It Black.mp3
-/media/data/music/Steppenwolf - Born To Be Wild.mp3
-/media/data/music/010The Next Episode.mp3
+/media/data/music/Arctic Monkeys - 2013 (Official Audio).mp3
 /media/data/music/311 - Beautiful Disaster.mp3
 /media/data/music/50 Cent-Candy Shop (Album Version Explicit).mp3
 /media/data/music/50 Cent-Hustler's Ambition (Album Version Explicit).mp3
 /media/data/music/05 In da Club.mp3
 /media/data/music/14 - Just A Lil Bit.mp3
+/media/data/music/Abdallah - Allô La Terre (CLIP OFFICIEL).mp3
 /media/data/music/05. AC DC - T.N.T..mp3
 /media/data/music/01. AC DC - Highway To Hell.mp3
 /media/data/music/06. AC DC - Back In Black.mp3
@@ -64,6 +26,8 @@
 /media/data/music/afroman - tgt - 02 - crazy rap.mp3
 /media/data/music/afroman - tgt - 03 - she won't let me.mp3
 /media/data/music/05. Back To Black.mp3
+/media/data/music/Arctic Monkeys - Electricity.mp3
+/media/data/music/Arctic Monkeys - Stop The World I Wanna Get Off With You (Official Audio).mp3
 /media/data/music/02 - I Bet You Look Good On The Dancefloor.mp3
 /media/data/music/08 - Red Light Indicates Doors Are Secured.mp3
 /media/data/music/09 - Mardy Bum.mp3
@@ -74,10 +38,15 @@
 /media/data/music/01 R U Mine.mp3
 /media/data/music/01 - Do I Wanna Know_.mp3
 /media/data/music/02 - R U Mine_.mp3
+/media/data/music/03 - One For The Road.mp3
 /media/data/music/04 - Arabella.mp3
+/media/data/music/05 - I Want It All.mp3
 /media/data/music/06 - No_ 1 Party Anthem.mp3
+/media/data/music/07 - Mad Sounds.mp3
+/media/data/music/08 - Fireside.mp3
 /media/data/music/09 - Why'd You Only Call Me When You're High_.mp3
 /media/data/music/10 - Snap Out Of It.mp3
+/media/data/music/11 - Knee Socks.mp3
 /media/data/music/12 - I Wanna Be Yours.mp3
 /media/data/music/Arctic Monkeys - Do I Wanna Know.mp3
 /media/data/music/01 No one Knows BT RMX.mp3
@@ -90,6 +59,8 @@
 /media/data/music/08-Revolution.mp3
 /media/data/music/02-Strawberry fields forever(Take 1).mp3
 /media/data/music/03-Strawberry fields forever(Take 7 and edit piece).mp3
+/media/data/music/Ben MazuÃ© - Confessions d'un rap addict.mp3
+/media/data/music/Ben Mazué - Confessions d'un rap addict.mp3
 /media/data/music/15 Abbesses.mp3
 /media/data/music/04 Birdy Nam Nam - Abbesse (Remix Defiant Order).mp3
 /media/data/music/Black Sabbath - Children Of The Grave.mp3
@@ -105,9 +76,11 @@
 /media/data/music/12 - Arcades.mp3
 /media/data/music/13 - Le Banquet Feat Kentaro And Netik And Rafik And Tigerstyle And Vajra.mp3
 /media/data/music/14 - F.U.Y.A..mp3
+/media/data/music/CaravanPalace-JolieCoquine.mp3
 /media/data/music/06 I've Got That Tune.mp3
 /media/data/music/04-chinese_man-miss_chang_featuring_taiwanmc-cyph4.mp3
 /media/data/music/10-chinese_man-get_up_featuring_ex-i-lush_one-plex_rock.mp3
+/media/data/music/Colours in the Street - Paper Child.mp3
 /media/data/music/Creedence Clearwater Revival - Fortunate Son.mp3
 /media/data/music/Harder, better, faster, stronger - Punkrose Remix.mp3
 /media/data/music/01 Daftendirekt.mp3
@@ -123,6 +96,12 @@
 /media/data/music/12 - Short Circuit.mp3
 /media/data/music/13 - Face To Face.mp3
 /media/data/music/14 - Too Long.mp3
+/media/data/music/Daft Punk - Human afte all.mp3
+/media/data/music/Daft Punk - Robot rock.mp3
+/media/data/music/Daft Punk - Make love.mp3
+/media/data/music/Daft Punk - Television rules the nation.mp3
+/media/data/music/Daft Punk - Technologic.mp3
+/media/data/music/Daft Punk - Emotion.mp3
 /media/data/music/01-Daft Punk - Robot Rock - Oh Yeah.mp3
 /media/data/music/02-Daft Punk - Touch It - Technologic.mp3
 /media/data/music/03-Daft Punk - Television Rules The Nation - Crescendolls.mp3
@@ -142,16 +121,11 @@
 /media/data/music/07. Touch (feat. Paul Williams).mp3
 /media/data/music/08. Get Lucky (feat. Pharrell Williams and Nile Rodgers).mp3
 /media/data/music/13. Contact (feat. DJ Falcon).mp3
-/media/data/music/Daft Punk - Human afte all.mp3
-/media/data/music/Daft Punk - Robot rock.mp3
-/media/data/music/Daft Punk - Make love.mp3
-/media/data/music/Daft Punk - Television rules the nation.mp3
-/media/data/music/Daft Punk - Technologic.mp3
-/media/data/music/Daft Punk - Emotion.mp3
 /media/data/music/Daft Punk - Random Access Memories (Vanderway Remix).mp3
 /media/data/music/14h54.mp3
 /media/data/music/11H30.mp3
 /media/data/music/04 - Memories.mp3
+/media/data/music/DavidBowie-Starman-2002DigitalRemaster.mp3
 /media/data/music/Never_Lose_(feat._Beat_Assailant).mp3
 /media/data/music/Pony.mp3
 /media/data/music/12 - Enjoy The Silence (Reinterpreted - Mike Shinoda).mp3
@@ -165,6 +139,8 @@
 /media/data/music/01 - Sultans Of Swing.mp3
 /media/data/music/Dire Straits - Money For Nothing.mp3
 /media/data/music/Global Deejays   San Francisco Dreamin music only.mp3
+/media/data/music/DoctorFlake-ALastDanceWithLéon.mp3
+/media/data/music/010The Next Episode.mp3
 /media/data/music/009smooke everiday.mp3
 /media/data/music/Barbra Streisand.mp3
 /media/data/music/Edwin Starr - War.mp3
@@ -174,6 +150,9 @@
 /media/data/music/12-I'm the Bomb.mp3
 /media/data/music/02-I Buy the Drugs.mp3
 /media/data/music/06-Pulling the Plug on the Party.mp3
+/media/data/music/Eminem-Berzerk.mp3
+/media/data/music/Eminem, Dr. Dre - Forgot About Dre ft. Hittman.mp3
+/media/data/music/Eminem - Rap God (Audio).mp3
 /media/data/music/'97 Bonnie & Clyde.mp3
 /media/data/music/Role Model.mp3
 /media/data/music/02 Kill You.mp3
@@ -201,6 +180,27 @@
 /media/data/music/16 When I'm Gone.mp3
 /media/data/music/3am.mp3
 /media/data/music/We Made You.mp3
+/media/data/music/01 Bad Guy.m4a
+/media/data/music/02 Parking Lot (Skit).m4a
+/media/data/music/03 Rhyme Or Reason.m4a
+/media/data/music/04 So Much Better.m4a
+/media/data/music/05 Survival.m4a
+/media/data/music/06 Legacy.m4a
+/media/data/music/07 Asshole (feat. Skylar Grey).m4a
+/media/data/music/08 Berzerk.m4a
+/media/data/music/09 Rap God.m4a
+/media/data/music/10 Brainless.m4a
+/media/data/music/11 Stronger Than I Was.m4a
+/media/data/music/12 The Monster (feat. Rihanna).m4a
+/media/data/music/13 So Far....m4a
+/media/data/music/14 Love Game (feat. Kendrick Lamar).m4a
+/media/data/music/15 Headlights (feat. Nate Ruess).m4a
+/media/data/music/16 Evil Twin.m4a
+/media/data/music/17 Baby.m4a
+/media/data/music/18 Desperation (feat. Jamie N Common.m4a
+/media/data/music/19 Groundhog Day.m4a
+/media/data/music/20 Beautiful Pain (feat. Sia).m4a
+/media/data/music/21 Wicked Ways.m4a
 /media/data/music/02 Eminem Ft. kobe-Talkin 2 Myself (Prod. By DJ Kahlil).mp3
 /media/data/music/01 Lose Yourself.mp3
 /media/data/music/1-03 This Ain't a Scene, It's an Arm.mp3
@@ -209,6 +209,7 @@
 /media/data/music/06-flynt-mon_pote_feat_orelsan.mp3
 /media/data/music/09 - Hey Julie.mp3
 /media/data/music/03 We Are Young (Feat. Janelle Monae).mp3
+/media/data/music/Funkadelic - Maggot Brain.mp3
 /media/data/music/02 - Rock And Roll (Part 2).mp3
 /media/data/music/Glukoza - 1 - Szwajne.ogg
 /media/data/music/Glukoza - 9 - Oj-oj.ogg
@@ -238,12 +239,16 @@
 /media/data/music/01 - Guns 'n Roses - Welcome to the Jungle.mp3
 /media/data/music/04 - Knockin' On Heaven's Door.mp3
 /media/data/music/216 Metal Gear Saga.mp3
+/media/data/music/Heart - Crazy On You.mp3
 /media/data/music/01 Hawker's Song.mp3
+/media/data/music/HollySiz - Come Back To Me [Clip Officiel].mp3
+/media/data/music/Hollysiz  Come back to me.mp3
 /media/data/music/03 Everywhere I Go.mp3
 /media/data/music/09 Bottle And A Gun.mp3
 /media/data/music/11 City.mp3
 /media/data/music/12 The Diary.mp3
 /media/data/music/01 Radioactive.mp3
+/media/data/music/just in.mp3
 /media/data/music/R.E.M. - Losing My Religion.mp3
 /media/data/music/01-izia-baby.mp3
 /media/data/music/02-Izia-So_Much_Trouble.mp3
@@ -252,6 +257,7 @@
 /media/data/music/09-izia-she.mp3
 /media/data/music/02-jali-espanola.mp3
 /media/data/music/James Brown - Get Up (I Feel Like Being A) Sex Machine.mp3
+/media/data/music/JAY-Z - Big Pimpin ft. UGK.mp3
 /media/data/music/03 Niggas in Paris.mp3
 /media/data/music/14 Hâ€¢Aâ€¢M.mp3
 /media/data/music/Jimi Hendrix - All Along The Watchtower.mp3
@@ -322,22 +328,26 @@
 /media/data/music/12. Fouiny Juice (Hosted by DJ Battle).mp3
 /media/data/music/06-la_fouine-paname_boss_feat_sniper_niro_youssoupha_canardo_fababy_and_sultan.mp3
 /media/data/music/17-la_fouine-on_sen_bat_les_couilles_feat_mac_tyer_(bonus_track).mp3
+/media/data/music/Lana Del Rey - Blue Jeans.mp3
 /media/data/music/(04) Stairway To Heaven.mp3
+/media/data/music/15 - Stairway To Heaven.mp3
+/media/data/music/Lee Fields Faithful Man.mp3
 /media/data/music/Lenny Kravitz - Are You Gonna Go My Way.mp3
 /media/data/music/LMFAO - 2 I'm in Miami Bitch.mp3
 /media/data/music/LMFAO - 9 Shots.mp3
 /media/data/music/03. Party Rock Anthem.mp3
 /media/data/music/Lynyrd Skynyrd - Sweet Home Alabama.mp3
+/media/data/music/LyreLeTemps-AboutTheTraumaDrum.mp3
 /media/data/music/03 - Loud (prod ID Labs).mp3
 /media/data/music/02 Can't Hold Us (feat. Ray Dalton).mp3
 /media/data/music/03 Thrift Shop (feat. Wanz).mp3
 /media/data/music/10 Jimmy Iovine (feat. Ab-Soul).mp3
+/media/data/music/KILL ME.mp3
 /media/data/music/01 Hair Addiction_[plixid.com].mp3
 /media/data/music/06 Broken Toy Boy_[plixid.com].mp3
 /media/data/music/07 Kill Me_[plixid.com].mp3
 /media/data/music/09 Baby Baby Baby_[plixid.com].mp3
 /media/data/music/11 Glocken_[plixid.com].mp3
-/media/data/music/KILL ME.mp3
 /media/data/music/07 - Big In Japan (feat. Dragonette).mp3
 /media/data/music/02 Symphony of destruction.mp3
 /media/data/music/10 She-Wolf.mp3
@@ -355,16 +365,22 @@
 /media/data/music/01 - Fuel.mp3
 /media/data/music/04 The Look.mp3
 /media/data/music/07 The Bay.mp3
+/media/data/music/MGMT - Time To Pretend.mp3
 /media/data/music/01 Time to Pretend.mp3
 /media/data/music/MGMT - Electric Feel (Justice Remix).mp3
 /media/data/music/11  M.I.A. - Paper Planes.mp3
 /media/data/music/12-mister_you-30_juin_2009.mp3
 /media/data/music/13-mister_you-30_juin_2010.mp3
 /media/data/music/14-mister_you-30_juin_2011.mp3
+/media/data/music/MisterModo-DigginintheCrates.mp3
+/media/data/music/MisteurValaire-AveMucho.mp3
+/media/data/music/MisteurValaire-NovemberNumber3.mp3
+/media/data/music/Moriarty-Jimmy.mp3
 /media/data/music/03 Time Is Running Out.mp3
 /media/data/music/02 Starlight.mp3
 /media/data/music/02 Muscle Museum.mp3
 /media/data/music/03 - Live Good.mp3
+/media/data/music/02-Come on.mp3
 /media/data/music/Nirvana - 01 - Smells Like Teen Spirit.mp3
 /media/data/music/Nirvana - 03 - Come As You Are.mp3
 /media/data/music/01-Heart-Shaped Box [LP Version]-Heart-Shaped Box [Single]-Nirvana.mp3
@@ -374,6 +390,7 @@
 /media/data/music/Nirvana - 12 - Lake Of Fire.mp3
 /media/data/music/Nirvana - 14 - Where Did You Sleep Last Night.mp3
 /media/data/music/Nirvana - 01 - You Know You're Right.mp3
+/media/data/music/No Doubt - The Singles 1992-2003 - 02 - It's My Life.mp3
 /media/data/music/03 - Piste 03.mp3
 /media/data/music/07 - Piste 07.mp3
 /media/data/music/Hey Ya.mp3
@@ -386,11 +403,17 @@
 /media/data/music/2-01 Jimmy's Gang.m4a
 /media/data/music/2-03 Booty Swing.m4a
 /media/data/music/2-11 All Night (Extended Club Version).m4a
+/media/data/music/ParovStelarTrio-TheFireface(ClubEdit).mp3
+/media/data/music/PaulKalkbrenner-Aaron.mp3
+/media/data/music/PaulKalkbrenner-Dockyard.mp3
+/media/data/music/Pink Floyd-Another Brick In The Wall [HQ].mp3
+/media/data/music/PrettyLights-FinallyMoving.mp3
 /media/data/music/03. I Need You Tonight (feat. Ed Drewett).mp3
 /media/data/music/15 Into The Ground.mp3
 /media/data/music/16 Upper Clapton Dance.mp3
 /media/data/music/02 D.P.M.O..mp3
 /media/data/music/12 Today I Cried.mp3
+/media/data/music/Puppetmastaz-TheGarden.mp3
 /media/data/music/11-Queen - Bohemian Rhapsody.mp3
 /media/data/music/Bohemian Rhapsody.mp3
 /media/data/music/The Show Must Go On.mp3
@@ -405,6 +428,9 @@
 /media/data/music/02. Snow (Hey Oh).mp3
 /media/data/music/04. Stadium Arcadium.mp3
 /media/data/music/18. 21st Century.mp3
+/media/data/music/Reignwolf - Electric Love (Jet City Stream Session).mp3
+/media/data/music/Rolling Stones - Paint It Black.mp3
+/media/data/music/Rone-IWokeUp.mp3
 /media/data/music/02 Disparate Youth.mp3
 /media/data/music/03 God From The Machine.mp3
 /media/data/music/01 - I Don't Feel Like Dancin'.mp3
@@ -427,6 +453,7 @@
 /media/data/music/06 My name is stain.mp3
 /media/data/music/06. Mad O You.mp3
 /media/data/music/Sophie Ellis Bextor - Murder On The Dance Floor.mp3
+/media/data/music/Steppenwolf - Born To Be Wild.mp3
 /media/data/music/01 Ta FÃªte.mp3
 /media/data/music/02 Papaoutai.mp3
 /media/data/music/03 BÃ¢tard.mp3
@@ -480,16 +507,15 @@
 /media/data/music/Jimi Hendrix Experience, The - Hey Joe.mp3
 /media/data/music/Mamas And The Papas, The - California Dreamin'.mp3
 /media/data/music/06 - Feelings-bwp.mp3
+/media/data/music/02 - Have You Ever-bwp.mp3
 /media/data/music/04 - Pretty Fly for a White Guy-bwp.mp3
 /media/data/music/03 - Staring at the Sun-bwp.mp3
 /media/data/music/05 - The Kids Aren't Alright-bwp.mp3
 /media/data/music/11 - Why Don't You Get a Job-bwp.mp3
-/media/data/music/02 - Have You Ever-bwp.mp3
 /media/data/music/08 The Pistolas - Take it With a Kiss.mp3
 /media/data/music/Rolling Stones, The - Paint It, Black.mp3
 /media/data/music/The Verve - Urban Hymns - 01 - Bittersweet Symphony.mp3
 /media/data/music/02 Hello Operator.mp3
 /media/data/music/The White Stripes - Seven Nation Army.mp3
-/media/data/music/02-Come on.mp3
 /media/data/music/01 - My Band.mp3
 /media/data/music/19 Brother Dege (AKA Dege Legg) - Too Old to Die Young.mp3

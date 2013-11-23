@@ -353,7 +353,7 @@ cases. -->
 
 
 
-    <!--MOCP -->
+    <!--CMUS -->
     <keybind key="C-W-n">
       <action name="Execute">
         <command>cmus-remote -n</command>

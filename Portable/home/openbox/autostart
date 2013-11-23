@@ -14,7 +14,7 @@ compton -cCGb &
 xbacklight -set 100 &
 /usr/bin/synclient TouchpadOff=1 &
 #xxkb &
-
+xscreensaver -nosplash &
 
 #Application#
-subl &
+#subl &
