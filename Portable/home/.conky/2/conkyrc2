@@ -1,0 +1,162 @@
+background yes
+use_xft yes
+xftfont monospace:size=9
+xftalpha 1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour black
+double_buffer yes
+minimum_size 1355 760
+maximum_width 1355
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color gray
+default_shade_color 000000
+own_window_title
+clicky
+default_outline_color d9d7d6
+alignment tl
+gap_x 12
+gap_y 50
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale yes
+color1 red
+color2 gray
+color3 1994d1
+##############################################
+#  Output
+##############################################
+TEXT
+${color3}${font Droid Sans:style=Bold:size=8}VIM${font}${color2}
+${font Droid Sans:style=Bold:size=8}[OPEN, SAVE & QUIT]${font}
+
+:q  ${goto 120}Quit
+:q!  ${goto 120}Force Quit
+:w ${color1}${font monospace:italic:size=8}file${font}${color2}  ${goto 120}Save as ${color1}${font monospace:italic:size=8}file${font}${color2}
+:x  ${goto 120}Save & Quit
+:sp ${color1}${font monospace:italic:size=8}file${font}${color2}  ${goto 120}split H & open ${color1}${font monospace:italic:size=8}file${font}${color2}
+:vsp ${color1}${font monospace:italic:size=8}file${font}${color2}  ${goto 120}split V & open ${color1}${font monospace:italic:size=8}file${font}${color2}
+Ctrl+w w  ${goto 120}Goto next Window
+
+${font Droid Sans:style=Bold:size=8}[MODE]${font}
+
+i${color3}/${color2}a ${goto 120}Insert before/after cursor
+I${color3}/${color2}A ${goto 120}Insert begin/end of line
+o${color3}/${color2}O ${goto 120}Add line before/after cursor + insert
+cc ${goto 120}replace line
+ESC ${goto 120}commande Mode
+
+
+${font Droid Sans:style=Bold:size=8}[MOUVEMENT]${font}
+
+${goto 35}k
+${goto 35}${font Droid Sans:style=Bold:size=8}↑${font}
+h ${font Droid Sans:style=Bold:size=8}←     →${font} l
+${goto 35}${font Droid Sans:style=Bold:size=8}↓${font}
+${goto 35}j
+
+0 ${goto 120}begin of line
+$$ ${goto 120}end of line
+w${color3}/${color2}W ${goto 120}begin of word/WORD
+e${color3}/${color2}E ${goto 120}end of word/WORD
+b${color3}/${color2}B ${goto 120}begin of word/WORD précédent
+(${color3}/${color2}) ${goto 120}begin of phrase précédante/suivante
+gg${color3}/${color2}G ${goto 120}begin/end of file
+Ctrl+b ${goto 120}pageUP
+Ctrl+f ${goto 120}pageDOWN
+${color1}${font monospace:italic:size=8}n${font}${color2}G ${goto 120}Goto line ${color1}${font monospace:italic:size=8}n${font}${color2}
+/${color1}${font monospace:italic:size=8}word${font}${color2} ${goto 120}search ${color1}${font monospace:italic:size=8}word${font}${color2}
+n${color3}/${color2}N ${goto 120}search prev/next ${color1}${font monospace:italic:size=8}word${font}${color2}
+
+${font Droid Sans:style=Bold:size=8}[COMMANDE]${font}
+
+:ls ${goto 120}list opened file
+:h ${goto 120}vim help
+Ctrl+N${color3}/${color2}Ctrl+P ${goto 120}auto-complete next/prev word
+
+${goto 400}${voffset -680}${font Droid Sans:style=Bold:size=8}[MODIFICATION]${font}
+
+${goto 400}y ${goto 500}copy (range)
+${goto 400}yy ${goto 500}copy line
+${goto 400}d ${goto 500}delete/cut (range)
+${goto 400}c ${goto 500}modify (range)
+${goto 400}x ${goto 500}delete/cut (character)
+${goto 400}dd ${goto 500}delete line
+${goto 400}D ${goto 500}delete to end of line
+${goto 400}C ${goto 500}modify to end of line
+${goto 400}p ${goto 500}paste after cursor
+${goto 400}J ${goto 500}join lines
+${goto 400}r ${goto 500}replace (character)
+${goto 400}> ${goto 500}indent
+${goto 400}< ${goto 500}indent leftward
+${goto 400}. ${goto 500}redo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+${goto 400}u ${goto 500}undo
+${goto 400}d${color1}${font monospace:italic:size=8}n${font}${color2}w ${goto 500}delete next ${color1}${font monospace:italic:size=8}n${font}${color2} word
+
+${goto 400}${color3}${font Droid Sans:style=Bold:size=8}APPLICATION${font}${color2}
+
+${goto 400}Super+espace${offset 15} Menu
+${goto 400}Alt+F3${offset 55} Dmenu
+${goto 400}Super+t${offset 48} Terminal
+${goto 400}Super+f${offset 48} Gestionnaire de fichier
+${goto 400}Super+e${offset 48} Editeur
+${goto 400}Super+w${offset 48} Navigateur Web
+${goto 400}Super+q${offset 48} Force Quit
+${goto 400}Super+x${offset 48} Changer Conky
+${goto 400}Super+s${offset 48} Moc
+${goto 400}Super+m${offset 48} Vlc
+${goto 400}Super+d${offset 48} xkill
+
+${voffset -680}${goto 700}${color3}${font Droid Sans:style=Bold:size=8}WINDOW${font}${color2}
+
+${goto 700}Super+Fn${offset 40} Bureau n
+${goto 700}Super+a${offset 48} Maximiser
+${goto 700}Super+h${offset 48} Maximiser Horizontal
+${goto 700}Super+v${offset 48} Maximiser Vertical
+${goto 700}Super+c${offset 48} Centrer
+${goto 700}Super+➜${offset 48} Move
+${goto 700}Super+d${offset 48} Retour bureau
+${goto 700}Alt+Super+➜${offset 20} Ajuster
+
+#${goto 700}${color3}${font Droid Sans:style=Bold:size=8}CMUS$stippled_hr${font}${color2}
+#
+#${goto 700}[ACTIVE]
+#${goto 700}space$alignr Play/Pause
+#${goto 700}n$alignr Chanson suivante
+#${goto 700}b$alignr Chanson précédente
+#${goto 700}s$alignr Stop
+#${goto 700}8$alignr volume +5
+#${goto 700}2$alignr volume -5
+#${goto 700}
+#${goto 700}[NO]
+#${goto 700}Ctrl+Super+space$alignr Play/Pause
+#${goto 700}Ctrl+Super+c$alignr Play
+#${goto 700}Ctrl+Super+s$alignr Stop
+#${goto 700}Ctrl+Super+n$alignr Chanson suivante
+#${goto 700}Ctrl+Super+b$alignr Chanson précédente
+#${goto 700}Ctrl+Super+p$alignr volume +10
+#${goto 700}Ctrl+Super+m$alignr volume -10
+#
