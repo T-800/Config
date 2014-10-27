@@ -1,0 +1,79 @@
+#avoid flicker
+double_buffer yes
+
+#own window to run simultanious 2 or more conkys
+own_window yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+#background
+background no
+use_xft yes
+xftalpha 0.8
+#font Zekton:size=8
+#xftfont Zekton:size=8
+xftfont Monospace:size=9
+use_spacer none
+minimum_size 1366 0
+
+#borders
+draw_borders no
+
+#shades
+draw_shades yes
+
+#outline
+draw_outline yes
+
+#position
+gap_x 2
+gap_y 50
+alignment top_left
+
+#behaviour
+#update_interval 5
+#update_interval_on_battery 10 ADP0
+
+#Headercolor
+color0 1994d1
+
+#Logocolor
+color1 cornflowerblue
+
+#Text Systeminfo/IP
+color2 darkgrey
+
+#Variable Text
+color3 cyan
+
+#Graphen
+color4 darkgrey
+
+#Running
+color5 orange
+
+color6 red
+
+TEXT
+#LINE 1
+${goto 5}${color0}Uptime   : ${color}${uptime}\
+${goto 170}${color0}Pkg   : ${color}${if_match ${execi 30 /home/renaud/.conky/pacman.pl} > 00}${color6}${else}${color}$endif${execi 30 /home/renaud/.conky/pacman.pl}\
+${goto 320}${color0}Cpu 1 : ${color}${cpubar cpu1 5,30 darkgrey} ${if_match ${cpu cpu1} > 30}${color6}${else}${color}$endif${cpu cpu1}%\
+${goto 450}${color0}Cpu 2 : ${color}${cpubar cpu2 5,30 EEEEEE} ${if_match ${cpu cpu2} > 30}${color6}${else}${color}$endif${cpu cpu2}%\
+${goto 580}${color0}Ram  : ${if_match $memperc > 19} ${color6}${else}${color}$endif$memperc% - ${mem}\
+${goto 800}${color0}Root  : ${color}${fs_bar 6,30 /} ${fs_free /} \
+${goto 970}${color0}Data : ${color}${fs_bar 6,30 /media/data} ${fs_free /media/data} \
+${goto 1150}${color0}Download    : ${color}${downspeed wlp3s0}\
+
+#LINE 2
+${goto 5}${color0}Batterie : ${color}${battery_time BAT0}\
+${goto 170}${color0}Gmail : ${color}${if_match ${execi 30 /home/renaud/.conky/gmail.py} > 00}${color6}${else}${color}$endif${execi 30 /home/renaud/.conky/gmail.py}\
+${goto 320}${color0}Cpu 3 : ${color}${cpubar cpu3 5,30 EEEEEE} ${if_match ${cpu cpu3} > 30}${color6}${else}${color}$endif${cpu cpu3}%\
+${goto 450}${color0}Cpu 4 : ${color}${cpubar cpu4 5,30 EEEEEE} ${if_match ${cpu cpu4} > 30}${color6}${else}${color}$endif${cpu cpu4}%\
+${goto 580}${color0}Swap : ${if_match $swapperc > 19} ${color6}${else}${color}$endif$swapperc% - ${swap}\
+${goto 800}${color0}Home  : ${color}${fs_bar 6,30 /home} ${fs_free /home} \
+${goto 970}${color0}Nas  : ${color}${fs_bar 6,30 /media/nas} ${fs_free /media/nas} \
+${goto 1150}${color0}Upload      : ${color}${upspeed wlp3s0}\
+
+${goto 1150}${color0}WiFi Signal : ${color}${wireless_link_qual_perc wlp3s0}%

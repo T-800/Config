@@ -1,0 +1,73 @@
+# temps pour fermer conky en seconde. 0 = toujours actif 
+total_run_times 0
+
+# affiche le texte sur la sortie standard
+out_to_console no
+
+# réglage de la mémoire, pour éviter le clignotement
+double_buffer yes
+# Soustraire les mémoires tampons de la mémoire utilisée
+no_buffers yes
+text_buffer_size 2048
+
+# taux de rafraichissement de la fenêtre (en secondes)
+update_interval 1
+
+# nombre d'échantillons à utiliser pour calculer la moyenne d'utilisation
+cpu_avg_samples 4
+net_avg_samples 2
+
+# taille et positon
+alignment top_left
+minimum_size 320 5
+maximum_width 320
+
+# écart avec le bord x=gauche ou droit y= haut ou bas
+gap_x 5
+gap_y 100
+
+#  afficher les ombres
+draw_shades yes
+# afficher des contours
+draw_outline no
+# contours autour des blocs de texte
+draw_borders no
+# largeur du contour
+border_width 1
+# largeur des marges
+border_margin 4
+
+#pour que conky tourne en arrière plan background no pour les tests
+background yes
+
+# utiliser sa propre fenêtre
+own_window yes
+#type de fenêtre : normal(avec le cadre) / override / desktop
+own_window_type override # normal / override / desktop
+#pseudo transparence si vous avez des icones sous le conky elle ne seront plus accessibles une fois conky activé
+own_window_transparent yes
+
+# Utiliser Xft (polices lissées etc)
+use_xft yes
+xftalpha .1
+override_utf8_locale yes # force UTF8
+
+#police a utiliser : use_xft doit être a "yes"
+xftfont Fixed:size=7#OCR A Std:size=6
+# Tout le texte en majuscule
+uppercase no
+
+# Ajoute des espaces après certains objets pour éviter de les faire bouger.
+# Fonctionne uniquement avec les polices Fixes
+use_spacer right
+color1 1994d1
+color2 red
+color3 gray
+##############################################
+#  Output
+##############################################
+TEXT
+#${execpi 3600 /home/renaud/.conky/paconky.py /tmp/paconky}
+#${execpi 900 sh /home/renaud/.conky/pmupdate.sh}
+#
+${execpi 10800 python2 /home/renaud/.conky/notify.py} 
